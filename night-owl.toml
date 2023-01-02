@@ -8,10 +8,13 @@ fg = '#d6deeb'
 bg = '#011627'
 cursor_fg = '#80a4c2' # editorCursor.foreground
 line_number_fg = '#4b6479' # editorLineNumber.foreground
-line_number_active_fg = '#c5e4fd' # editorLineNumber.activeForeground
+line_number_active_fg = '#c5e4fc' # editorLineNumber.activeForeground
 sign_add = '#9ccc65' # editorGutter.addedBackground
 sign_change = '#e2b93d' # editorGutter.modifiedBackground
 sign_delete = '#ef5350' # editor.errorForeground, editorGutter.deletedBackground
+indent_guide = '#1f395d' # editorIndentGuide.background, editorRuler.foreground
+indent_guide_active = '#7e97ac' # editorIndentGuide.activeBackground
+parameter = '#d7dbe0'
 
 dark = '#010d18'
 # '#001122' - breadcrumbPicker.background
@@ -41,10 +44,9 @@ gray = '#262a39' # border
 # tree_gray = '#1b1f27'
 gray2 = '#d2dee7' # tab.activeForeground
 gray3 = '#d6deeb80' # panelTitle.inactiveForeground
-gray4 = '#d7dbe0'
 
 light_blue = '#78ccf0' # variable.other.jsdoc
-blue = '#82aaff' # constant, sass at-rules (?)
+blue = '#82aaff' # function, constant, sass at-rules (?)
 # '#4373c2' - selection.background
 # '#00589ef2' - inputValidation.infoBackground
 # '#084d8180' - scrollbarSlider
@@ -66,16 +68,14 @@ blue7 = '#234d70' # terminalCursor.background
 blue8 = '#234d708c' # list.activeSelectionBackground
 blue9 = '#395a75' # gitDecoration.ignoredResourceForeground
 blue10 = '#5ca7e4' # string.regexp
-blue11 = '#5e81ce52' # editorIndentGuide.background, editorRuler.foreground
-blue12 = '#5f7e97' # list.inactiveSelectionForeGround, editorHoverWidget.border, meta.type.parameters.{ts,tsx}, entity.name.type.instance.jsdoc, statusBar.foreground
-blue13 = '#5f7e974d' # editorBracketMatch.background
-blue14 = '#5f7e9779' # editor.selectionHighlightBackground, editor.findMatchBackground
-blue15 = '#697098' # markdown quotes
-blue16 = '#7e97ac' # editorIndentGuide.activeBackground
-blue18 = '#82b1ff' # markdown punctuation
-blue19 = '#89a4bb' # sideBar.foreground (text)
-blue20 = '#8eace3' # python variable
-blue21 = '#b2ccd6' # python function call
+blue11 = '#5f7e97' # list.inactiveSelectionForeGround, editorHoverWidget.border, meta.type.parameters.{ts,tsx}, entity.name.type.instance.jsdoc, statusBar.foreground
+blue12 = '#5f7e974d' # editorBracketMatch.background
+blue13 = '#5f7e9779' # editor.selectionHighlightBackground, editor.findMatchBackground
+blue14 = '#697098' # markdown quotes
+blue15 = '#82b1ff' # markdown punctuation
+blue16 = '#89a4bb' # sideBar.foreground (text)
+blue17 = '#8eace3' # python variable
+blue18 = '#b2ccd6' # python function call
 
 green = '#c5e478' # tag.attribute, scss variable, variables, md bold
 # '#21c7a8'
@@ -91,9 +91,9 @@ cyan = '#6ae9f0' # HTML punctuation definition
 # '#31e1eb' - coffeescript variable assignment
 # '#57eaf1'
 # '#baebe2'
-cyan3 = '#7fdbca' # new keyword
-cyan4 = '#7fdbcaff' # C++ functions
-cyan5 = '#80cbc4' # strings in JSON
+cyan2 = '#7fdbca' # new keyword
+cyan3 = '#7fdbcaff' # C++ functions
+cyan4 = '#80cbc4' # strings in JSON
 dark_cyan = '#637777'
 
 light_red = '#ff869a'
@@ -183,7 +183,7 @@ SignColumn = '- bg'
 # WildMenu = 'fg ui2_blue'
 CursorLineNr = 'line_number_active_fg'
 LineNr = 'line_number_fg'
-# Comment = 'gray - i'
+Comment = 'dark_cyan - i'
 # Folded = 'accent alt_bg'
 # FoldColumn = 'accent alt_bg'
 # FloatBorder = 'gray alt_bg'
@@ -224,21 +224,21 @@ TermCursorNC = 'cursor_fg'
 # EndOfBuffer = 'bg'
 # NonText = 'bg'
 # Variable = 'light_blue'
-# String = 'orange'
+String = 'light_orange'
 # Character = 'orange'
 # Constant = 'vivid_blue'
 Number = 'orange'
 Boolean = 'red - i'
 # Float = 'light_green'
 # Identifier = 'light_blue'
-# Function = 'yellow'
-# Operator = 'fg'
+Function = 'blue - i'
+Operator = 'magenta'
 # Type = 'cyan'
 # StorageClass = 'blue'
 # Structure = 'blue'
 # Typedef = 'blue'
 Keyword = 'magenta'
-# Statement = 'purple'
+Statement = 'magenta - i'
 # Conditional = 'blue'
 # Repeat = 'purple'
 # Label = 'purple'
@@ -248,11 +248,11 @@ Keyword = 'magenta'
 # Define = 'purple'
 # Macro = 'purple'
 # PreCondit = 'purple'
-# Special = 'orange'
+Special = 'orange2'
 # SpecialChar = 'white'
 # Tag = 'blue'
 # Debug = 'red'
-# Delimiter = 'gray -'
+Delimiter = 'fg'
 # SpecialComment = 'gray'
 # Underlined = '- - u'
 # Bold = '- - b'
@@ -275,8 +275,10 @@ Keyword = 'magenta'
 # TSException = 'purple'
 # TSInclude = 'purple'
 # TSKeywordReturn = 'purple'
+'@keyword.return' = 'link:Statement'
 # TSKeyword = 'purple'
 # TSKeywordFunction = 'purple'
+'@keyword.operator' = 'cyan2'
 # TSLabel = 'light_blue'
 # TSNamespace = 'cyan'
 # TSRepeat = 'yellow'
@@ -294,9 +296,11 @@ Keyword = 'magenta'
 # TSFuncMacro = 'blue'
 # TSVariable = 'light_blue'
 # TSVariableBuiltin = 'red'
+'@variable.builtin' = 'cyan2'
 # TSProperty = 'red'
 # TSField = 'fg'
 # TSParameter = 'red'
+'@parameter' = 'parameter'
 # TSParameterReference = 'red'
 # TSSymbol = 'light_blue'
 # TSText = 'alt_fg'
@@ -465,9 +469,9 @@ GitGutterChangeDelete = 'sign_change -'
 # StatusLineTermNC = 'line'
 
 [IndentBlankline]
-# IndentBlanklineContextChar = 'context'
+IndentBlanklineChar = 'indent_guide'
+IndentBlanklineContextChar = 'indent_guide_active'
 # IndentBlanklineContextStart = '- - u'
-# IndentBlanklineChar = 'dark_gray'
 # IndentBlanklineSpaceChar = 'cyan_test'
 # IndentBlanklineSpaceCharBlankline = 'info_yellow'
 
