@@ -9,6 +9,9 @@ bg = '#011627'
 cursor_fg = '#80a4c2' # editorCursor.foreground
 line_number_fg = '#4b6479' # editorLineNumber.foreground
 line_number_active_fg = '#c5e4fd' # editorLineNumber.activeForeground
+sign_add = '#9ccc65' # editorGutter.addedBackground
+sign_change = '#e2b93d' # editorGutter.modifiedBackground
+sign_delete = '#ef5350' # editor.errorForeground, editorGutter.deletedBackground
 
 dark = '#010d18'
 # '#001122' - breadcrumbPicker.background
@@ -80,8 +83,7 @@ green = '#c5e478' # tag.attribute, scss variable, variables, md bold
 # '#8bd649'
 # '#c5e47833'
 # '#d9f5dd'
-green2 = '#9ccc65' # editorGutter.addedBackground
-green3 = '#c5e478ff' # gitDecoration.untrackedResourceForeground
+green2 = '#c5e478ff' # gitDecoration.untrackedResourceForeground
 # light_green = '#c18a56'
 
 light_cyan = '#caece6' # tag names
@@ -115,10 +117,9 @@ yellow = '#b39554' # warning color
 # '#675700F2'
 # '#ffca28'
 # '#e0dec6'
-yellow2 = '#e2b93d' # editorGutter.modifiedBackground
-yellow3 = '#fad430' # entity attribute id
-yellow4 = '#ffeb95' # stylesheet unit keyword
-yellow5 = '#ffeb95cc' # gitDecoration.conflictingResourceForeground
+yellow2 = '#fad430' # entity attribute id
+yellow3 = '#ffeb95' # stylesheet unit keyword
+yellow4 = '#ffeb95cc' # gitDecoration.conflictingResourceForeground
 
 light_purple = '#a599e9' # breadcrumb.foreground
 purple = '#7e57c2' # rulers for merge conflicts
@@ -147,9 +148,6 @@ magenta5 = '#f6bbe533' # editor.wordHighlightBackground
 
 # cursor_bg = '#AEAFAD'
 
-# sign_add = '#587c0c'
-# sign_change = '#0c7d9d'
-# sign_delete = '#94151b'
 # tree_sign_add = '#73C991'
 # tree_sign_change = '#CCA700'
 
@@ -171,7 +169,7 @@ ui_blue = '#1d3b53' # editor.selectionBackground
 
 [highlights]
 Normal = 'fg bg'
-# SignColumn = '- bg'
+SignColumn = '- bg'
 # MsgArea = 'fg bg'
 # ModeMsg = 'fg dark'
 # MsgSeparator = 'fg bg'
@@ -183,8 +181,8 @@ Normal = 'fg bg'
 # Pmenu = 'light_gray tree_gray - - 50'
 # PmenuSel = '- ui2_blue'
 # WildMenu = 'fg ui2_blue'
-CursorLineNr = 'line_number_active_fg -'
-LineNr = 'line_number_fg -'
+CursorLineNr = 'line_number_active_fg'
+LineNr = 'line_number_fg'
 # Comment = 'gray - i'
 # Folded = 'accent alt_bg'
 # FoldColumn = 'accent alt_bg'
@@ -198,9 +196,9 @@ LineNr = 'line_number_fg -'
 # Visual = '- ui_blue'
 # VisualNOS = '- alt_bg'
 # WarningMsg = 'error_red bg'
-# DiffAdd = 'alt_bg sign_add'
-# DiffChange = 'alt_bg sign_change u'
-# DiffDelete = 'alt_bg sign_delete'
+DiffAdd = 'bg sign_add'
+DiffChange = 'bg sign_change u'
+DiffDelete = 'bg sign_delete'
 # QuickFixLine = '- ui2_blue'
 # PmenuSbar = '- alt_bg'
 # PmenuThumb = '- gray'
@@ -208,11 +206,11 @@ LineNr = 'line_number_fg -'
 # MatchParen = 'hint_blue bg u'
 # MatchWordCur = '- - u'
 # MatchParenCur = '- - u'
-Cursor = 'cursor_fg -'
-lCursor = 'cursor_fg -'
-CursorIM = 'cursor_fg -'
-TermCursor = 'cursor_fg -'
-TermCursorNC = 'cursor_fg -'
+Cursor = 'cursor_fg'
+lCursor = 'cursor_fg'
+CursorIM = 'cursor_fg'
+TermCursor = 'cursor_fg'
+TermCursorNC = 'cursor_fg'
 # Conceal = 'accent'
 # Directory = 'blue'
 # SpecialKey = 'blue - b'
@@ -229,8 +227,8 @@ TermCursorNC = 'cursor_fg -'
 # String = 'orange'
 # Character = 'orange'
 # Constant = 'vivid_blue'
-# Number = 'orange'
-# Boolean = 'red'
+Number = 'orange'
+Boolean = 'red - i'
 # Float = 'light_green'
 # Identifier = 'light_blue'
 # Function = 'yellow'
@@ -239,7 +237,7 @@ TermCursorNC = 'cursor_fg -'
 # StorageClass = 'blue'
 # Structure = 'blue'
 # Typedef = 'blue'
-# Keyword = 'blue'
+Keyword = 'magenta'
 # Statement = 'purple'
 # Conditional = 'blue'
 # Repeat = 'purple'
@@ -360,12 +358,16 @@ TermCursorNC = 'cursor_fg -'
 # WhichKeyFloat = '- dark'
 
 [Git]
-# SignAdd = 'sign_add'
-# SignChange = 'sign_change'
-# SignDelete = 'sign_delete'
-# GitSignsAdd = 'sign_add'
-# GitSignsChange = 'sign_change'
-# GitSignsDelete = 'sign_delete'
+GitGutterAdd = 'sign_add -'
+GitGutterChange = 'sign_change -'
+GitGutterDelete = 'sign_delete -'
+GitGutterChangeDelete = 'sign_change -'
+# SignAdd = 'sign_add -'
+# SignChange = 'sign_change -'
+# SignDelete = 'sign_delete -'
+# GitSignsAdd = 'sign_add -'
+# GitSignsChange = 'sign_change -'
+# GitSignsDelete = 'sign_delete -'
 
 [LSP]
 # LspDiagnosticsDefaultError = 'error_red'
