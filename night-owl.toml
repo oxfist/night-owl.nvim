@@ -14,11 +14,16 @@ sign_change = '#e2b93d' # editorGutter.modifiedBackground
 sign_delete = '#ef5350' # editor.errorForeground, editorGutter.deletedBackground
 indent_guide = '#1f395d' # editorIndentGuide.background, editorRuler.foreground
 indent_guide_active = '#7e97ac' # editorIndentGuide.activeBackground
-string_delimiter = '#d9f5dd'
 visual = '#1d3b53' # editor.selectionBackground
-title = '#82b1ff' # markdown punctuation
+error_red = '#ef5350' # editor.errorForeground, editorGutter.deletedBackground
+
 ui_border = '#5f7e97' # list.inactiveSelectionForeGround, editorHoverWidget.border, meta.type.parameters.{ts,tsx}, entity.name.type.instance.jsdoc, statusBar.foreground
+nvim_tree_file = '#89a4bb' # sideBar.foreground (text)
+nvim_tree_cursor_line = '#0e293f' # list.inactiveSelectionBackground
+
+title = '#82b1ff' # markdown punctuation
 parameter = '#d7dbe0'
+string_delimiter = '#d9f5dd'
 
 dark = '#010d18'
 # '#001122' - breadcrumbPicker.background
@@ -64,27 +69,25 @@ blue = '#82aaff' # function, constant, sass at-rules (?)
 # '#a2bffc' - changed (git and diff)
 # '#cdebf7' - object
 blue2 = '#0b253a' # input.background
-blue3 = '#0e293f' # list.inactiveSelectionBackground
-blue4 ='#1085bb5d' # editor.findMatchHighlightBackground
-blue5 = '#122d42' # focusBorder
-blue6 = '#1b90dd4d' # terminal.selectionBackground
-blue7 = '#234d70' # terminalCursor.background
-blue8 = '#234d708c' # list.activeSelectionBackground
-blue9 = '#395a75' # gitDecoration.ignoredResourceForeground
-blue10 = '#5ca7e4' # string.regexp
-blue11 = '#5f7e974d' # editorBracketMatch.background
-blue12 = '#5f7e9779' # editor.selectionHighlightBackground, editor.findMatchBackground
-blue13 = '#697098' # markdown quotes
-blue14 = '#89a4bb' # sideBar.foreground (text)
-blue15 = '#8eace3' # python variable
-blue16 = '#b2ccd6' # python function call
+blue3 ='#1085bb5d' # editor.findMatchHighlightBackground
+blue4 = '#122d42' # focusBorder
+blue5 = '#1b90dd4d' # terminal.selectionBackground
+blue6 = '#234d70' # terminalCursor.background
+blue7 = '#234d708c' # list.activeSelectionBackground
+blue8 = '#395a75' # gitDecoration.ignoredResourceForeground
+blue9 = '#5ca7e4' # string.regexp
+blue10 = '#5f7e974d' # editorBracketMatch.background
+blue11 = '#5f7e9779' # editor.selectionHighlightBackground, editor.findMatchBackground
+blue12 = '#697098' # markdown quotes
+blue13 = '#8eace3' # python variable
+blue14 = '#b2ccd6' # python function call
 
 green = '#c5e478' # tag.attribute, scss variable, variables, md bold
 # '#21c7a8'
 # '#22da6e'
 # '#8bd649'
 # '#c5e47833'
-green2 = '#c5e478ff' # gitDecoration.untrackedResourceForeground
+# green2 = '#c5e478ff' # gitDecoration.untrackedResourceForeground
 # light_green = '#c18a56'
 
 light_cyan = '#caece6' # tag names
@@ -104,9 +107,8 @@ red = '#ff5874'
 # '#ef5350f2'
 # '#d3423e'
 # '#ec5f67'
-red2 = '#ef5350' # editor.errorForeground, editorGutter.deletedBackground
-red3 = '#ff6363' # tag names in stylesheets
-red4 = '#ef535090' # gitDecoration.deletedResourceForeground
+red2 = '#ff6363' # tag names in stylesheets
+red3 = '#ef535090' # gitDecoration.deletedResourceForeground
 dark_red = '#ab0300f2'
 
 light_orange = '#ecc48d' # string
@@ -126,7 +128,7 @@ light_purple = '#a599e9' # breadcrumb.foreground
 purple = '#7e57c2' # rulers for merge conflicts
 # '#7e57c273'
 # '#7e57c2cc'
-# dark_purple = '#7e57c25a' # editor.hoverHighlightBackground
+# '#7e57c25a' # editor.hoverHighlightBackground
 purple2 = '#7986e7' # variable.parameter.function.js
 dark_purple = '#2E2D5E' # extracted directly to avoid alpha channel
 
@@ -146,14 +148,12 @@ magenta5 = '#f6bbe533' # editor.wordHighlightBackground
 # vivid_blue = '#4FC1FF'
 # dark_blue = '#223E55'
 # folder_blue = '#42A5F5'
-# light_blue = '#abb2bf'
 
 # cursor_bg = '#AEAFAD'
 
 # tree_sign_add = '#73C991'
 # tree_sign_change = '#CCA700'
 
-# error_red = '#F44747'
 # warning_orange = '#ff8800'
 # info_yellow = '#FFCC66'
 # hint_blue = '#4FC1FF'
@@ -179,21 +179,21 @@ SignColumn = '- bg'
 # SpellLocal = 'green - u'
 # SpellRare = 'purple - u'
 # NormalNC = 'fg bg'
-Pmenu = '- bg'
-# PmenuSel = '- ui2_blue'
+Pmenu = '- dark'
+PmenuSel = '- nvim_tree_cursor_line'
 # WildMenu = 'fg ui2_blue'
 CursorLineNr = 'line_number_active_fg'
 LineNr = 'line_number_fg'
 Comment = 'dark_cyan - i'
 # Folded = 'accent alt_bg'
 # FoldColumn = 'accent alt_bg'
-FloatBorder = 'ui_border bg'
+FloatBorder = 'blue4 bg'
 # Whitespace = 'bg -'
 # VertSplit = 'gray bg'
-# CursorLine = '- dark'
-# CursorColumn = '- dark'
+CursorLine = '- dark'
+CursorColumn = '- cursor_fg'
 # ColorColumn = '- dark'
-# NormalFloat = '- dark'
+NormalFloat = '- bg'
 Visual = 'link:VisualActive'
 VisualActive = '- visual'
 VisualInactive = '- dark_purple'
@@ -215,10 +215,10 @@ CursorIM = 'cursor_fg'
 TermCursor = 'cursor_fg'
 TermCursorNC = 'cursor_fg'
 # Conceal = 'accent'
-# Directory = 'blue'
+Directory = 'blue'
 # SpecialKey = 'blue - b'
 Title = 'title - b'
-# ErrorMsg = 'error_red bg b'
+ErrorMsg = 'link:Error'
 # Search = 'light_gray search_blue'
 # IncSearch = 'search_orange light_gray'
 # Substitute = 'light_gray search_orange'
@@ -262,7 +262,7 @@ Delimiter = 'fg'
 # Italic = '- - i'
 # Ignore = 'cyan bg b'
 # Todo = 'magenta bg b'
-# Error = 'error_red bg b'
+Error = 'error_red'
 # TabLine = 'light_gray line'
 # TabLineSel = 'white line'
 # TabLineFill = 'line line'
@@ -291,6 +291,8 @@ Delimiter = 'fg'
 # TSConstant = 'orange'
 '@constant.identifier' = 'link:Constant'
 # TSConstBuiltin = 'orange'
+'@constant.builtin' = 'blue - i'
+'@constant.builtin.null' = 'red'
 # TSFloat = 'orange'
 # TSNumber = 'orange'
 # TSBoolean = 'orange'
@@ -390,6 +392,7 @@ GitGutterChangeDelete = 'sign_change -'
 # GitSignsDelete = 'sign_delete -'
 
 [LSP]
+LspInfoBorder = "ui_border"
 # LspDiagnosticsDefaultError = 'error_red'
 # LspDiagnosticsDefaultWarning = 'warning_orange'
 # LspDiagnosticsDefaultInformation = 'info_yellow'
@@ -430,34 +433,36 @@ GitGutterChangeDelete = 'sign_change -'
 # LspReferenceWrite = '- #2e303b'
 # LspCodeLens = 'context - i'
 # LspCodeLensSeparator = 'context - i'
+DiagnosticError = "link:Error"
 
 [Telescope]
-# TelescopeSelection = 'hint_blue'
-# TelescopeMatching = 'info_yellow - b'
-# TelescopeBorder = 'blue bg'
+TelescopeSelection = '- visual'
+TelescopeMatching = 'nvim_tree_file - b'
+TelescopeBorder = 'ui_border'
 
 [NvimTree]
 # NvimTreeFolderIcon = 'folder_blue'
 # NvimTreeIndentMarker = '#c5c5c5'
-# NvimTreeNormal = 'light_gray tree_gray'
+NvimTreeNormal = 'nvim_tree_file'
+NvimTreeSpecialFile = 'orange'
 # NvimTreeVertSplit = 'alt_bg alt_bg'
 # NvimTreeFolderName = 'folder_blue'
 # NvimTreeOpenedFolderName = 'folder_blue - bi'
 # NvimTreeEmptyFolderName = 'gray - i'
 # NvimTreeGitIgnored = 'gray - i'
-# NvimTreeImageFile = 'light_gray'
+NvimTreeImageFile = 'nvim_tree_file'
 # NvimTreeSpecialFile = 'orange'
 # NvimTreeEndOfBuffer = 'tree_gray'
 # NvimTreeCursorLine = '- #282b37'
 # NvimTreeGitignoreIcon = '#E64A19'
 # NvimTreeGitStaged = 'tree_sign_add'
-# NvimTreeGitNew = 'tree_sign_add'
+NvimTreeGitNew = 'green'
 # NvimTreeGitRenamed = 'tree_sign_add'
 # NvimTreeGitDeleted = 'sign_delete'
 # NvimTreeGitMerge = 'tree_sign_change'
 # NvimTreeGitDirty = 'tree_sign_change'
 # NvimTreeSymlink = 'cyan'
-# NvimTreeRootFolder = 'fg - b'
+NvimTreeRootFolder = 'magenta'
 # NvimTreeExecFile = '#9FBA89'
 
 [Buffer]
