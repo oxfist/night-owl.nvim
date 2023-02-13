@@ -40,29 +40,6 @@ operator: ("of") @operator.of
      (#set! "priority" 200)
     ]))
 
-[
- (jsx_element
-   open_tag: (jsx_opening_element
-               name: (identifier) @tag.component.jsx
-               (#set! "priority" 200)
-               (#match? @tag.component.jsx "^[A-Z]")))
- (jsx_element
-   close_tag: (jsx_closing_element
-               name: (identifier) @tag.component.jsx
-               (#set! "priority" 200)
-               (#match? @tag.component.jsx "^[A-Z]")))
- (jsx_self_closing_element
-   name: (identifier) @tag.component.jsx
-   (#set! "priority" 200)
-   (#match? @tag.component.jsx "^[A-Z]"))
-]
-
-; (class_declaration
-;   body: (class_body
-;           member: (field_definition
-;                     property: (property_identifier) @class.field.function
-;                     value: (arrow_function))))
-
 (null) @constant.builtin.null
 
 (literal_type
