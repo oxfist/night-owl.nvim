@@ -56,6 +56,7 @@ theme.set_highlights = function()
   -- Treesitter
   hl(0, "@class.constructor", { fg = c.blue, bg = 'NONE', italic=true, })
   hl(0, "@class.field.function", { link = 'Function' })
+  hl(0, "@type", { fg = c.orange2, bg = 'NONE', italic=true, })
   hl(0, "@type.builtin", { fg = c.green, bg = 'NONE' })
   hl(0, "@include.identifier", { fg = c.fg, bg = 'NONE' })
   hl(0, "@keyword.return", { link = 'Statement' })
