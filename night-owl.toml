@@ -16,8 +16,9 @@ indent_guide = '#1f395d' # editorIndentGuide.background, editorRuler.foreground
 indent_guide_active = '#7e97ac' # editorIndentGuide.activeBackground
 visual = '#1d3b53' # editor.selectionBackground
 match_paren = '#1D3443'
-search_blue = '#083E5D'
+search_blue = '#073E5D'
 error_red = '#ef5350' # editor.errorForeground, editorGutter.deletedBackground
+word_highlight = '#2F3350'
 
 ui_border = '#5f7e97' # list.inactiveSelectionForeGround, editorHoverWidget.border, meta.type.parameters.{ts,tsx}, entity.name.type.instance.jsdoc, statusBar.foreground
 nvim_tree_file = '#89a4bb' # sideBar.foreground (text)
@@ -531,3 +532,8 @@ IndentBlanklineContextChar = 'indent_guide_active'
 # CmpItemKindReference = 'fg'
 # CmpItemKindOperator = 'fg'
 # CmpItemKindTypeParameter = 'red'
+
+[Illuminate]
+IlluminatedWordText = '- word_highlight'
+IlluminatedWordRead = '- word_highlight'
+IlluminatedWordWrite = '- word_highlight'

@@ -111,6 +111,11 @@ theme.set_highlights = function()
   -- Dashboard
 
   -- Cmp
+
+  -- Illuminate
+  hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.word_highlight })
+  hl(0, "IlluminatedWordRead", { fg = 'NONE', bg = c.word_highlight })
+  hl(0, "IlluminatedWordWrite", { fg = 'NONE', bg = c.word_highlight })
 end
 
 return theme
