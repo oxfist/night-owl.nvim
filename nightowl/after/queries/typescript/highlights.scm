@@ -68,3 +68,8 @@ operator: ("of") @operator.of
 (literal_type
    [(undefined) (null)] @type.builtin)
 
+(export_statement
+  "export" @keyword.export)
+
+(export_statement
+  "default" @keyword.default)

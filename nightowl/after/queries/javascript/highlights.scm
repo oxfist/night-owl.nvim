@@ -64,3 +64,9 @@ operator: ("of") @operator.of
                     value: (arrow_function))))
 
 (null) @constant.builtin.null
+
+(export_statement
+  "export" @keyword.export)
+
+(export_statement
+  "default" @keyword.default)
