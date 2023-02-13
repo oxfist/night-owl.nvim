@@ -37,19 +37,25 @@ operator: ("of") @operator.of
      name: (object_pattern
               (shorthand_property_identifier_pattern) @constant.identifier)
      name: (identifier) @constant.identifier
-     (#set! "priority" 300)
+     (#set! "priority" 200)
     ]))
 
-; [(jsx_element
-;    open_tag: (jsx_opening_element
-;                name: (identifier) @tag.component.jsx
-;                (#match? @tag.component.jsx "^[A-Z]")
-;   ))
-;  (jsx_self_closing_element
-;   name: (identifier) @tag.component.jsx
-;   (#match? @tag.component.jsx "^[A-Z]")
-;   )
-; ]
+[
+ (jsx_element
+   open_tag: (jsx_opening_element
+               name: (identifier) @tag.component.jsx
+               (#set! "priority" 200)
+               (#match? @tag.component.jsx "^[A-Z]")))
+ (jsx_element
+   close_tag: (jsx_closing_element
+               name: (identifier) @tag.component.jsx
+               (#set! "priority" 200)
+               (#match? @tag.component.jsx "^[A-Z]")))
+ (jsx_self_closing_element
+   name: (identifier) @tag.component.jsx
+   (#set! "priority" 200)
+   (#match? @tag.component.jsx "^[A-Z]"))
+]
 
 ; (class_declaration
 ;   body: (class_body
