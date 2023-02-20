@@ -5,3 +5,8 @@ The best implementation of
 for Neovim with Treesitter support.
 
 🏗 Currently in construction...
+
+## TODO
+
+- [ ] Fix `@constant` color highlighting when using
+- [ ] Fix `.?` operator not being highlighted separately
