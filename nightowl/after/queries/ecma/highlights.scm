@@ -43,6 +43,10 @@ operator: ("of") @operator.of
      (#set! "priority" 200)
     ]))
 
+((identifier) @constant
+              (#lua-match? @constant "^[A-Z][A-Z_0-9]*$")
+              (#set! "priority" 200))
+
 (null) @constant.builtin.null
 
 (export_statement

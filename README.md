@@ -9,5 +9,5 @@ for Neovim with Treesitter support.
 ## TODO
 
 - [x] Fix `.?` operator not being highlighted separately
-- [ ] Fix `@constant` color highlighting when accessing value
+- [x] Fix `@constant` color highlighting when accessing value
 - [ ] LSP rename dialog colors not visible enough
