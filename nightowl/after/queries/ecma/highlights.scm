@@ -68,3 +68,7 @@ operator: ("of") @operator.of
 
 (class_heritage
   ("extends") @keyword.extends)
+
+("class" name: (identifier) @type.class)
+
+("extends" (identifier) @type.inheritedClass)
