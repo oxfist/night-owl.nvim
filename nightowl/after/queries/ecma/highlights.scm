@@ -40,17 +40,18 @@ operator: ("of") @operator.of
       (#not-has-ancestor? @object.key field_definition)
       (#set! "priority" 200))
 
-(lexical_declaration
-  "const"
-  (variable_declarator
-    [
-     name: (array_pattern
-              (identifier) @constant.identifier)
-     name: (object_pattern
-              (shorthand_property_identifier_pattern) @constant.identifier)
-     name: (identifier) @constant.identifier
-     (#set! "priority" 200)
-    ]))
+("const" [
+          (variable_declarator
+            [
+             name: (array_pattern
+                     (identifier) @constant.identifier)
+             name: (object_pattern
+                     (shorthand_property_identifier_pattern) @constant.identifier)
+             name: (identifier) @constant.identifier
+             (#set! "priority" 200)
+            ])
+          left: (identifier) @constant.identifier
+         ])
 
 ((identifier) @constant
               (#lua-match? @constant "^[A-Z][A-Z_0-9]*$")
@@ -65,10 +66,5 @@ operator: ("of") @operator.of
   "default" @keyword.default)
 
 (("static") @keyword.static (property_identifier))
-
-(class_heritage
-  ("extends") @keyword.extends)
-
-("class" name: (identifier) @type.class)
 
 ("extends" (identifier) @type.inheritedClass)
