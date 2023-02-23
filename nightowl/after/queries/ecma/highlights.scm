@@ -24,12 +24,21 @@
  "\""
 ] @punctuation.string.delimiter
 
+(member_expression 
+  "." @punctuation.accessor
+  property: (property_identifier)
+)
+
 operator: ("of") @operator.of
 
 (member_expression 
     object: (member_expression
       property: (property_identifier) @object.property)
     property: (property_identifier))
+
+(pair (property_identifier) @object.key
+      (#not-has-ancestor? @object.key field_definition)
+      (#set! "priority" 200))
 
 (lexical_declaration
   "const"
@@ -55,5 +64,7 @@ operator: ("of") @operator.of
 (export_statement
   "default" @keyword.default)
 
-(method_definition
-   "static" @keyword.static)
+(("static") @keyword.static (property_identifier))
+
+(class_heritage
+  ("extends") @keyword.extends)
