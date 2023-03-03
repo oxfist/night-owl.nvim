@@ -10,4 +10,5 @@ for Neovim with Treesitter support.
 
 - [x] Fix `.?` operator not being highlighted separately
 - [x] Fix `@constant` color highlighting when accessing value
+- [x] Fix JSDoc parameter identifiers not being highlighted properly
 - [ ] LSP rename dialog colors not visible enough
