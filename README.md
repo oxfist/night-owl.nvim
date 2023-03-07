@@ -26,7 +26,7 @@ Plug 'oxfist/night-owl.nvim'
 
 ## 🎨 Usage
 
-Add the **following** line to your Lua configuration files:
+Add the following line to your Lua configuration files:
 
 ```lua
 vim.cmd("colorscheme night-owl")
