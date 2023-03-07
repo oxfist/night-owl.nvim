@@ -1,0 +1,1 @@
+require("night-owl").setup({})

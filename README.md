@@ -30,10 +30,10 @@ Plug 'oxfist/night-owl.nvim'
 
 ## 🎨 Usage
 
-Add the following line to your configuration files:
+Add the **following** line to your Lua configuration files:
 
-```vim
-colorscheme 'night-owl'
+```lua
+vim.cmd("colorscheme night-owl")
 ```
 
 ## 🔎 Comparison
@@ -82,6 +82,7 @@ different:
 | JavaScript/JSX |   ✅   |
 | JSON           |   ✅   |
 | TypeScript/TSX |   ✅   |
+| Markdown       |   ✅   |
 
 </div>
 
