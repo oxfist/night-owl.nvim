@@ -3,11 +3,7 @@
 </div>
 
 <div align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/light_logo.png">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/dark_logo.png">
-        <img src="img/logo.png" height="300" alt="Logo" />
-    </picture>
+    <img src="img/dark_logo.png" height="300" alt="Logo" />
 </div>
 
 The _best_ implementation of
