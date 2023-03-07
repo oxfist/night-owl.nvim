@@ -68,3 +68,9 @@ operator: ("of") @operator.of
 (("static") @keyword.static (property_identifier))
 
 ("extends" (identifier) @type.inheritedClass)
+
+((regex_pattern) @string.regex 
+                 (#set! "priority" 200))
+
+((regex_flags) @string.regexFlags
+               (#set! "priority" 200))

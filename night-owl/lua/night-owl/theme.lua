@@ -1,5 +1,5 @@
 
-local c = require('nightowl.palette')
+local c = require('night-owl.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
@@ -68,7 +68,9 @@ theme.set_highlights = function()
   hl(0, "@keyword.default", { link = 'Statement' })
   hl(0, "@keyword.static", { link = 'Statement' })
   hl(0, "@keyword.extends", { link = 'Statement' })
+  hl(0, "@keyword.coroutine", { link = 'Statement' })
   hl(0, "@keyword.operator", { fg = c.cyan2, bg = 'NONE' })
+  hl(0, "@keyword.jsdoc", { fg = c.magenta, bg = 'NONE', nocombine=true, })
   hl(0, "@label", { fg = c.cyan2, bg = 'NONE' })
   hl(0, "@constant", { link = 'Constant' })
   hl(0, "@constant.identifier", { link = 'Constant' })
@@ -93,6 +95,8 @@ theme.set_highlights = function()
   hl(0, "@punctuation.string.delimiter", { fg = c.string_delimiter, bg = 'NONE' })
   hl(0, "@punctuation.accessor", { link = 'Statement' })
   hl(0, "@string.json", { fg = c.magenta2, bg = 'NONE' })
+  hl(0, "@string.regex", { fg = c.blue, bg = 'NONE', nocombine=true, })
+  hl(0, "@string.regexFlags", { fg = c.blue8, bg = 'NONE', nocombine=true, })
 
   -- markdown
 

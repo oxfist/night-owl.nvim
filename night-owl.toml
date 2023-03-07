@@ -1,5 +1,5 @@
 [information]
-name = "nightowl"
+name = "night-owl"
 background = "dark"
 author = 'Andrés Quilodrán'
 
@@ -295,8 +295,10 @@ Error = 'error_red'
 '@keyword.default' = 'link:Statement'
 '@keyword.static' = 'link:Statement'
 '@keyword.extends' = 'link:Statement'
+'@keyword.coroutine' = 'link:Statement'
 # TSKeywordFunction = 'purple'
 '@keyword.operator' = 'cyan2'
+'@keyword.jsdoc' = 'magenta - n'
 # TSLabel = 'light_blue'
 '@label' = 'cyan2'
 # TSNamespace = 'cyan'
@@ -352,6 +354,8 @@ Error = 'error_red'
 # TSString = 'green'
 '@string.json' = 'magenta2'
 # TSStringRegex = 'green'
+'@string.regex' = 'blue - n'
+'@string.regexFlags' = 'blue8 - n'
 # TSStringEscape = 'green'
 # TSTag = 'blue'
 # TSEmphasis = '- - i'
@@ -486,6 +490,7 @@ NvimTreeGitNew = 'green'
 # NvimTreeSymlink = 'cyan'
 NvimTreeRootFolder = 'magenta'
 # NvimTreeExecFile = '#9FBA89'
+# NvimTreeWindowPicker = ''
 
 [Buffer]
 # BufferCurrent = 'fg bg'
