@@ -48,8 +48,10 @@ that other ports have with the original VSCode theme.
 The following features allow making the programming experience as close to the
 original VSCode theme as possible:
 
-1. Additional Treesitter queries to extend the default highlight groups
-2. Autocommands to enable changing background colors when Neovim is inactive
+1. Additional Treesitter queries to extend the default highlight groups, see
+   [after/queries](./after/queries)
+2. Autocommands to enable changing background colors when Neovim is inactive,
+   [after/plugin/autocmds.lua](./after/plugin/autocmds.lua)
 
 <details>
     <summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
