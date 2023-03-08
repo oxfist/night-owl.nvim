@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>🦉 night-owl.nvim ✨</h1>
+    <h1>🦉 night-owl.nvim 🌌</h1>
 </div>
 
 <div align="center">
@@ -10,7 +10,7 @@ The _best_ implementation of
 [Sarah Drasner's Night Owl VSCode theme](https://github.com/sdras/night-owl-vscode-theme)
 for Neovim with Treesitter support.
 
-## 💾 How to install
+## 📦 How to install
 
 ### Packer
 
@@ -29,7 +29,7 @@ Plug 'oxfist/night-owl.nvim'
 Add the following line to your Lua configuration files:
 
 ```lua
-vim.cmd("colorscheme night-owl")
+vim.cmd[[ colorscheme night-owl ]]
 ```
 
 ## 🔎 Comparison
@@ -48,10 +48,10 @@ that other ports have with the original VSCode theme.
 The following features allow making the programming experience as close to the
 original VSCode theme as possible:
 
-1. Additional Treesitter queries to extend the default highlight groups, see
-   [after/queries](./after/queries)
-2. Autocommands to enable changing background colors when Neovim is inactive,
-   [after/plugin/autocmds.lua](./after/plugin/autocmds.lua)
+1. Additional Treesitter queries to extend the default highlight groups (see
+   [`after/queries`](./after/queries))
+2. Autocommands to enable changing background colors when Neovim is inactive
+   (see [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua))
 
 <details>
     <summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
@@ -95,3 +95,4 @@ different:
 - [x] Fix `@constant` color highlighting when accessing value
 - [x] Fix JSDoc parameter identifiers not being highlighted properly
 - [ ] Fix LSP rename dialog colors not visible enough
+- [ ] Add Lualine theme
