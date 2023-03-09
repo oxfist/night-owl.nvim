@@ -121,10 +121,15 @@ theme.set_highlights = function()
   hl(0, "TelescopeBorder", { fg = c.ui_border, bg = 'NONE' })
 
   -- NvimTree
-  hl(0, "NvimTreeNormal", { fg = c.nvim_tree_file, bg = 'NONE' })
+  hl(0, "NvimTreeIndentMarker", { fg = c.nvim_tree_indent_marker, bg = 'NONE' })
+  hl(0, "NvimTreeNormal", { fg = c.dark_white, bg = 'NONE' })
+  hl(0, "NvimTreeNormalNC", { fg = c.nvim_tree_file, bg = 'NONE' })
   hl(0, "NvimTreeSpecialFile", { fg = c.orange, bg = 'NONE' })
+  hl(0, "NvimTreeOpenedFile", { fg = 'NONE', bg = 'NONE', bold=true, })
   hl(0, "NvimTreeImageFile", { fg = c.nvim_tree_file, bg = 'NONE' })
+  hl(0, "NvimTreeCursorLine", { fg = 'NONE', bg = c.nvim_tree_cursor_line })
   hl(0, "NvimTreeGitNew", { fg = c.green, bg = 'NONE' })
+  hl(0, "NvimTreeGitDirty", { fg = c.changed, bg = 'NONE' })
   hl(0, "NvimTreeRootFolder", { fg = c.magenta, bg = 'NONE' })
 
   -- Buffer
