@@ -29,7 +29,7 @@ Plug 'oxfist/night-owl.nvim'
 Add the following line to your Lua configuration files:
 
 ```lua
-vim.cmd.colorscheme("nigh-owl")
+vim.cmd.colorscheme("night-owl")
 ```
 
 ## 🔎 Comparison
