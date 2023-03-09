@@ -95,4 +95,5 @@ different:
 - [x] Fix `@constant` color highlighting when accessing value
 - [x] Fix JSDoc parameter identifiers not being highlighted properly
 - [ ] Fix LSP rename dialog colors not visible enough
+- [ ] Re-organize project files
 - [ ] Add Lualine theme
