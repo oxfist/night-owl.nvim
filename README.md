@@ -97,3 +97,5 @@ different:
 - [ ] Fix LSP rename dialog colors not visible enough
 - [ ] Re-organize project files
 - [ ] Add Lualine theme
+- [ ] Add issue template
+- [ ] Add `CONTRIBUTE.md`
