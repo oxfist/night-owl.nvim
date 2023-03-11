@@ -97,6 +97,8 @@ different:
 - [ ] Fix LSP rename dialog colors not visible enough
 - [ ] Add support for Lua
 - [ ] Re-organize project files
+- [ ] Add option to enable/disable italics
+- [ ] Add option to enable/disable bold
 - [ ] Add Lualine theme
 - [ ] Add issue template
 - [ ] Add `CONTRIBUTE.md`

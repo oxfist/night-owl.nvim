@@ -101,8 +101,6 @@ theme.set_highlights = function()
   hl(0, "@string.regex", { fg = c.blue, bg = 'NONE', nocombine=true, })
   hl(0, "@string.regexFlags", { fg = c.blue8, bg = 'NONE', nocombine=true, })
 
-  -- markdown
-
   -- Whichkey
 
   -- Git
