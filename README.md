@@ -10,6 +10,8 @@ The _best_ implementation of
 [Sarah Drasner's Night Owl VSCode theme](https://github.com/sdras/night-owl-vscode-theme)
 for Neovim with Treesitter support.
 
+![Syntax highlight demo image](./img/calculator.png)
+
 ## 📦 How to install
 
 ### Packer
@@ -103,3 +105,6 @@ different:
 - [ ] Add issue template
 - [ ] Add `CONTRIBUTE.md`
 - [ ] Add support for Rust
+- [ ] Add support for Vimscript
+- [ ] Add support for Python
+- [ ] Add support for Ruby
