@@ -26,7 +26,7 @@ use("oxfist/night-owl.nvim")
 Plug 'oxfist/night-owl.nvim'
 ```
 
-## 🎨 Usage
+## 🚀 Usage
 
 Add the following line to your Lua configuration files:
 
@@ -75,7 +75,10 @@ different:
 
 ### Language Support
 
-<div align="center">
+I've personally checked these languages look _good_ enough for me to confidently
+invite you to use this colorscheme with.
+
+<div align="left">
 
 | Languages      | Status |
 | :------------- | :----: |
@@ -90,21 +93,3 @@ different:
 
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [NvimTree](https://github.com/nvim-tree/nvim-tree.lua)
-
-## 📝 TODO
-
-- [x] Fix `.?` operator not being highlighted separately
-- [x] Fix `@constant` color highlighting when accessing value
-- [x] Fix JSDoc parameter identifiers not being highlighted properly
-- [ ] Fix LSP rename dialog colors not visible enough
-- [ ] Add support for Lua
-- [ ] Re-organize project files
-- [ ] Add option to enable/disable italics
-- [ ] Add option to enable/disable bold
-- [ ] Add Lualine theme
-- [ ] Add issue template
-- [ ] Add `CONTRIBUTE.md`
-- [ ] Add support for Rust
-- [ ] Add support for Vimscript
-- [ ] Add support for Python
-- [ ] Add support for Ruby

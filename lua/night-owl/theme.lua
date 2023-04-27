@@ -132,6 +132,7 @@ theme.set_highlights = function()
   hl(0, "NvimTreeGitDeleted", { fg = c.sign_delete, bg = 'NONE' })
   hl(0, "NvimTreeGitDirty", { fg = c.changed, bg = 'NONE' })
   hl(0, "NvimTreeRootFolder", { fg = c.magenta, bg = 'NONE' })
+  hl(0, "NvimTreeWindowPicker", { fg = c.orange2, bg = c.dark, bold=true, italic=true, })
 
   -- Buffer
 
