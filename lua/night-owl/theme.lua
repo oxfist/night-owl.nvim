@@ -14,11 +14,12 @@ theme.set_highlights = function()
   hl(0, "CursorLineNr", { fg = c.line_number_active_fg, bg = 'NONE' })
   hl(0, "LineNr", { fg = c.line_number_fg, bg = 'NONE' })
   hl(0, "Comment", { fg = c.dark_cyan, bg = 'NONE', italic=true, })
-  hl(0, "FloatBorder", { fg = c.blue3, bg = c.bg })
+  hl(0, "FloatBorder", { fg = c.ui_border, bg = c.blue2 })
+  hl(0, "FloatTitle", { fg = c.dark_white, bg = c.blue2 })
   hl(0, "VertSplit", { fg = c.gray, bg = 'NONE' })
   hl(0, "CursorLine", { fg = 'NONE', bg = c.dark2 })
   hl(0, "CursorColumn", { fg = 'NONE', bg = c.cursor_fg })
-  hl(0, "NormalFloat", { fg = 'NONE', bg = c.bg })
+  hl(0, "NormalFloat", { fg = 'NONE', bg = c.blue2, sp = 'NONE', blend=0,  })
   hl(0, "Visual", { link = 'VisualActive' })
   hl(0, "VisualActive", { fg = 'NONE', bg = c.visual })
   hl(0, "VisualInactive", { fg = 'NONE', bg = c.dark_purple })
@@ -121,7 +122,7 @@ theme.set_highlights = function()
   -- NvimTree
   hl(0, "NvimTreeIndentMarker", { fg = c.nvim_tree_indent_marker, bg = 'NONE' })
   hl(0, "NvimTreeNormal", { fg = c.dark_white, bg = 'NONE' })
-  hl(0, "NvimTreeNormalNC", { fg = c.nvim_tree_file, bg = 'NONE' })
+  hl(0, "NvimTreeNormalNC", { fg = c.ui_border, bg = 'NONE' })
   hl(0, "NvimTreeSpecialFile", { fg = c.orange, bg = 'NONE' })
   hl(0, "NvimTreeOpenedFile", { fg = 'NONE', bg = 'NONE', bold=true, })
   hl(0, "NvimTreeImageFile", { fg = c.nvim_tree_file, bg = 'NONE' })
@@ -150,6 +151,9 @@ theme.set_highlights = function()
   hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.word_highlight })
   hl(0, "IlluminatedWordRead", { fg = 'NONE', bg = c.word_highlight })
   hl(0, "IlluminatedWordWrite", { fg = 'NONE', bg = c.word_highlight })
+
+  -- DevIcons
+  hl(0, "DevIconLua", { fg = c.purple3, bg = 'NONE' })
 end
 
 return theme

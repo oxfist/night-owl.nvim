@@ -68,6 +68,7 @@ local colors = {
   light_purple = "#a599e9",
   purple = "#7e57c2",
   purple2 = "#7986e7",
+  purple3 = "#5166F0",
   dark_purple = "#2E2D5E",
   magenta = "#c792ea",
   magenta2 = "#c789d6",
