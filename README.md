@@ -73,57 +73,73 @@ different:
 
 </details>
 
-### Language Support
+### Language Support 🌐
 
-I've personally reviewed ex these languages look _good_ enough for me to
-confidently invite you to use this colorscheme with.
+I've personally reviewed these languages extensively enough to consider they
+look _acceptable_ for me to invite you to use this colorscheme if you build
+software with them.
 
-<style>
-.languages {
-    background-color: none;
-}
+<!-- <style> -->
+<!-- .languages { -->
+<!--     background-color: none; -->
+<!-- } -->
+<!---->
+<!-- .languages tr { -->
+<!--     display: flex; -->
+<!-- } -->
+<!---->
+<!-- .languages td { -->
+<!--     display: flex; -->
+<!--     justify-content: center; -->
+<!--     align-items: center; -->
+<!--     width: 7em; -->
+<!--     height: 7em; -->
+<!-- } -->
+<!---->
+<!-- .todo { -->
+<!--     filter: grayscale(100%) blur(2px); -->
+<!-- } -->
+<!---->
+<!-- .supported { -->
+<!--     width: 3.5em; -->
+<!-- } -->
+<!-- </style> -->
+<!---->
+<!-- <table class="languages"> -->
+<!--   <tr> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" alt="JavaScript" class="supported" /></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="Typescript" class="supported" /></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" title="JSON" alt="JSON" class="supported"/></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" title="Markdown" alt="Markdown" class="supported"/></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" title="Lua" alt="Lua" class="supported todo"/></td> -->
+<!--   </tr> -->
+<!--   <tr> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" alt="Vimscript" class="supported todo" /></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="Rust" class="supported todo"/></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="supported todo"/></td> -->
+<!--     <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Ruby" class="supported todo" /></td> -->
+<!--     <td></td> -->
+<!--   </tr> -->
+<!-- </table> -->
 
-.languages tr {
-    display: flex;
-}
-
-.languages td {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 7em;
-    height: 7em;
-}
-
-.todo {
-    filter: grayscale(100%) blur(2px);
-}
-
-.supported {
-    width: 3.5em;
-}
-</style>
-
-<table class="languages">
+<table>
   <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" alt="JavaScript" class="supported" /></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="Typescript" class="supported" /></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" title="JSON" alt="JSON" class="supported"/></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" title="Markdown" alt="Markdown" class="supported"/></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" title="Lua" alt="Lua" class="supported todo"/></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" alt="JavaScript" width="50" /></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="Typescript" width="50"/></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" alt="JSON" width="50"/></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown" width="50"/></td>
+    <!-- <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Lua" width="50" style="filter: grayscale(100%) blur(2px)" /></td> -->
   </tr>
-  <tr>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" alt="Vimscript" class="supported todo" /></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="Rust" class="supported todo"/></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="supported todo"/></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Ruby" class="supported todo" /></td>
-    <td></td>
-  </tr>
+  <!-- <tr> -->
+  <!--   <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" alt="Vimscript" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
+  <!--   <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="Rust" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
+  <!--   <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
+  <!--   <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Ruby" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
+  <!--   <td></td> -->
+  <!-- </tr> -->
 </table>
 
-<div align="left">
-
-</div>
+Coming Soon: Lua, Vimscript, Rust, Python, Ruby.
 
 ## 🧩 Plugins Supported
 
