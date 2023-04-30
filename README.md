@@ -75,10 +75,6 @@ different:
 
 ### Language Support 🌐
 
-I've personally reviewed these languages extensively enough to consider they
-look _acceptable_ for me to invite you to use this colorscheme if you build
-software with them.
-
 <table>
   <tr>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" alt="JavaScript" width="50" /></td>
@@ -96,7 +92,11 @@ software with them.
   <!-- </tr> -->
 </table>
 
-Coming Soon: Lua, Vimscript, Rust, Python, Ruby.
+> I've personally reviewed these languages extensively enough to consider they
+> look _acceptable_ for me to invite you to use this colorscheme if you build
+> software with them.
+
+**Coming Soon**: Lua, Vimscript, Rust, Python, Ruby, and more!
 
 ## 🧩 Plugins Supported
 
