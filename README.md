@@ -34,6 +34,10 @@ Add the following line to your Lua configuration files:
 vim.cmd.colorscheme("night-owl")
 ```
 
+## 🖥️ Requirements
+
+TODO
+
 ## 🔎 Comparison
 
 How does this port compare to the original VSCode theme? Check it out!
@@ -56,7 +60,7 @@ original VSCode theme as possible:
    (see [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua))
 
 <details>
-    <summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
+<summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
 
 | [haishanh/night-owl.vim](https://github.com/haishanh/night-owl.vim)             | This Theme                                                                 |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -78,10 +82,10 @@ different:
 <table>
   <tr>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" alt="JavaScript" width="50" /></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="Typescript" width="50"/></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" alt="JSON" width="50"/></td>
-    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown" width="50"/></td>
-    <!-- <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Lua" width="50" style="filter: grayscale(100%) blur(2px)" /></td> -->
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="Typescript" width="50" /></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg" title="JSON" alt="JSON" width="50" /></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" title="Markdown" alt="Markdown" width="50" /></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" title="Lua" alt="Lua" width="50" /></td>
   </tr>
   <!-- <tr> -->
   <!--   <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" alt="Vimscript" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
@@ -96,9 +100,15 @@ different:
 > look _acceptable_ for me to invite you to use this colorscheme if you build
 > software with them.
 
-**Coming Soon**: Lua, Vimscript, Rust, Python, Ruby, and more!
+**Coming Soon**: Lua ✅, Vimscript, Rust, Python, Ruby, and more!
 
 ## 🧩 Plugins Supported
 
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [NvimTree](https://github.com/nvim-tree/nvim-tree.lua)
+
+## Credits
+
+- [Sarah Drashner](https://github.com/sdras) first and foremost, for creating
+  such a beautiful and artistic color scheme that has, personally, made so much
+  more _pleasurable_ the exhilirating act of building software.

@@ -54,6 +54,8 @@ theme.set_highlights = function()
   hl(0, "Tag", { fg = c.light_cyan, bg = 'NONE' })
   hl(0, "Delimiter", { fg = c.fg, bg = 'NONE' })
   hl(0, "Error", { fg = c.error_red, bg = 'NONE' })
+  hl(0, "IndentChar", { fg = c.indent_guide, bg = 'NONE' })
+  hl(0, "IndentContextChar", { fg = c.magenta3, bg = 'NONE' })
 
   -- Treesitter
   hl(0, "@class.constructor", { fg = c.blue, bg = 'NONE', italic=true, })
@@ -88,6 +90,7 @@ theme.set_highlights = function()
   hl(0, "@property.toml", { fg = c.magenta, bg = 'NONE', nocombine=true, })
   hl(0, "@object.property", { fg = c.light_yellow, bg = 'NONE', italic=true, })
   hl(0, "@object.key", { fg = c.magenta, bg = 'NONE', italic=true, })
+  hl(0, "@field", { fg = c.cyan5, bg = 'NONE' })
   hl(0, "@parameter", { fg = c.parameter, bg = 'NONE' })
   hl(0, "@parameter.jsdoc", { fg = c.light_blue, bg = 'NONE' })
   hl(0, "@text.literal", { fg = c.green, bg = 'NONE' })
@@ -106,6 +109,7 @@ theme.set_highlights = function()
   hl(0, "@string.json", { fg = c.magenta2, bg = 'NONE' })
   hl(0, "@string.regex", { fg = c.blue, bg = 'NONE', nocombine=true, })
   hl(0, "@string.regexFlags", { fg = c.blue8, bg = 'NONE', nocombine=true, })
+  hl(0, "@function.builtin.lua", { fg = c.blue, bg = 'NONE', italic=true, })
 
   -- Whichkey
 
@@ -118,6 +122,8 @@ theme.set_highlights = function()
   -- LSP
   hl(0, "DiagnosticError", { link = 'Error' })
   hl(0, "LspInfoBorder", { fg = c.ui_border, bg = 'NONE' })
+  hl(0, "@lsp.type.parameter", { fg = c.parameter, bg = 'NONE' })
+  hl(0, "@lsp.type.property", { fg = c.cyan5, bg = 'NONE' })
   hl(0, "@lsp.type.variable.lua", { fg = c.green, bg = 'NONE' })
 
   -- Telescope
@@ -146,8 +152,8 @@ theme.set_highlights = function()
   -- StatusLine
 
   -- IndentBlankline
-  hl(0, "IndentBlanklineChar", { fg = c.indent_guide, bg = 'NONE' })
-  hl(0, "IndentBlanklineContextChar", { fg = c.indent_guide_active, bg = 'NONE' })
+  hl(0, "IndentBlanklineChar", { link = 'IndentChar' })
+  hl(0, "IndentBlanklineContextChar", { link = 'IndentContextChar' })
 
   -- Dashboard
 
