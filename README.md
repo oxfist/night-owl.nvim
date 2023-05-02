@@ -12,7 +12,7 @@ for Neovim with Treesitter support.
 
 ![Syntax highlight demo image](./img/calculator.png)
 
-## 📦 How to install
+## 📦 Install In Zero Time
 
 ### Packer
 
@@ -26,9 +26,10 @@ use("oxfist/night-owl.nvim")
 Plug 'oxfist/night-owl.nvim'
 ```
 
-## 🚀 Usage
+## 🚀 Load With A Simple Line
 
-Add the following line to your Lua configuration files:
+Add the following line to your Lua configuration files, e.g.
+`~/.config/nvim/init.lua` (your actual path might be different):
 
 ```lua
 vim.cmd.colorscheme("night-owl")
@@ -42,29 +43,26 @@ TODO
 
 How does this port compare to the original VSCode theme? Check it out!
 
-| Original VSCode Theme                                                        | This Theme 🤩                                                              |
+| Original Night Owl for VSCode                                                | This Theme 🤩                                                              |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <img src="./img/vscode.png" alt="Screenshot of VSCode theme" width="1062" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1078" /> |
 
-## ✨ Why pick this version of Night Owl?
+## ✨ Why Should _I_ pick _this_ version of Night Owl?
 
-This implementation of Night Owl solves several syntax highlight discrepancies
-that other ports have with the original VSCode theme.
+This implementation of Night Owl solves syntax highlight issues and
+discrepancies similar ports have when contrasting against the original VSCode
+theme.
 
 The following features allow making the programming experience as close to the
 original VSCode theme as possible:
 
-1. Additional Treesitter queries to extend the default highlight groups (see
-   [`after/queries`](./after/queries))
-2. Autocommands to enable changing background colors when Neovim is inactive
-   (see [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua))
+1. **Extended default highlight group**: through additional Treesitter queries.
+   See [`after/queries`](./after/queries) for details.
+2. **Different background color when Neovim is inactive**: through autocommands.
+   See [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua) for details.
 
 <details>
 <summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
-
-| [haishanh/night-owl.vim](https://github.com/haishanh/night-owl.vim)             | This Theme                                                                 |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| <img src="./img/haishanh.png" alt="Screenshot of haishanh theme" width="900" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1014" /> |
 
 With Treesitter installed you can see the overall look and feel is significantly
 different:
@@ -74,6 +72,10 @@ different:
 - Italics _not_ applied anywhere except for comments.
 - Italics _incorrectly_ applied to JSDoc keywords `@param` and `@returns`.
   <br />
+
+| [haishanh/night-owl.vim](https://github.com/haishanh/night-owl.vim)             | This Theme                                                                 |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| <img src="./img/haishanh.png" alt="Screenshot of haishanh theme" width="900" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1014" /> |
 
 </details>
 
@@ -96,9 +98,9 @@ different:
   <!-- </tr> -->
 </table>
 
-> I've personally reviewed these languages extensively enough to consider they
-> look _acceptable_ for me to invite you to use this colorscheme if you build
-> software with them.
+> I've personally optimized the styling and robustness for these languages
+> extensively enough to consider they look _acceptable_ for me to invite you to
+> use this colorscheme, if happen to build software with them.
 
 **Coming Soon**: Lua ✅, Vimscript, Rust, Python, Ruby, and more!
 
@@ -107,7 +109,7 @@ different:
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [NvimTree](https://github.com/nvim-tree/nvim-tree.lua)
 
-## Credits
+## 🎇 Credits
 
 - [Sarah Drashner](https://github.com/sdras) first and foremost, for creating
   such a beautiful and artistic color scheme that has, personally, made so much
