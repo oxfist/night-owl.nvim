@@ -73,8 +73,9 @@ local colors = {
   magenta = "#c792ea",
   magenta2 = "#c789d6",
   magenta3 = "#d1aaff",
-  magenta4 = "#e2a2f433",
-  magenta5 = "#f6bbe533",
+  magenta4 = "#ff2c83",
+  magenta5 = "#e2a2f433",
+  magenta6 = "#f6bbe533",
 }
 
 return colors

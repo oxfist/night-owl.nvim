@@ -16,3 +16,4 @@
 14. [ ] Add support for Vimscript
 15. [ ] Add support for Python
 16. [ ] Add support for Ruby
+17. [ ] Better highlight for checkhealth buffer
