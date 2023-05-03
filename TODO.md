@@ -5,8 +5,8 @@
 3. [x] Fix JSDoc parameter identifiers not being highlighted properly
 4. [x] Re-organize project files
 5. [x] Fix LSP rename dialog colors not visible enough
-6. [ ] Add support for Lua
-7. [ ] Add support for Vimscript
+6. [x] Add support for Lua
+7. [x] Add support for Vimscript
 8. [ ] Add option to enable/disable italics
 9. [ ] Add option to enable/disable bold
 10. [ ] Add Lualine theme
