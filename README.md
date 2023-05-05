@@ -123,6 +123,7 @@ many more!
 
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## 🎇 Credits
 
