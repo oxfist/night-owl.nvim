@@ -38,6 +38,7 @@ theme.set_highlights = function()
   hl(0, "ErrorMsg", { link = 'Error' })
   hl(0, "Search", { fg = 'NONE', bg = c.search_blue })
   hl(0, "NonText", { fg = c.bg, bg = 'NONE' })
+  hl(0, "Variable", { fg = c.parameter, bg = 'NONE' })
   hl(0, "String", { fg = c.light_orange, bg = 'NONE' })
   hl(0, "Constant", { fg = c.blue, bg = 'NONE', italic=true, })
   hl(0, "Number", { fg = c.orange, bg = 'NONE' })
@@ -137,8 +138,8 @@ theme.set_highlights = function()
   -- SemanticTokens
   hl(0, "@lsp.type.parameter", { fg = c.parameter, bg = 'NONE' })
   hl(0, "@lsp.type.property", { fg = c.cyan5, bg = 'NONE' })
+  hl(0, "@lsp.type.variable", { fg = c.parameter, bg = 'NONE' })
   hl(0, "@lsp.type.variable.lua", { fg = c.green, bg = 'NONE' })
-  hl(0, "@lsp.type.variable.javascriptreact", { fg = c.parameter, bg = 'NONE' })
 
   -- Telescope
   hl(0, "TelescopeSelection", { fg = 'NONE', bg = c.visual })
