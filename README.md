@@ -26,13 +26,27 @@ use("oxfist/night-owl.nvim")
 Plug 'oxfist/night-owl.nvim'
 ```
 
-## 🚀 Load With A Simple Line
+## 🚀 Start Using With A Single Line
 
 Add the following line to your Lua configuration files, e.g.
 `~/.config/nvim/init.lua` (your actual path might be different):
 
 ```lua
 vim.cmd.colorscheme("night-owl")
+```
+
+To enable `night-owl` for Lualine, simply set the theme like this in your
+settings 👇:
+
+```lua
+-- This Lualine config should be somewhere in your config files
+require('lualine').setup {
+  options = {
+    -- ... other configs
+    theme = 'night-owl'
+    -- ... other configs
+  }
+}
 ```
 
 ## 🖥️ Requirements
@@ -102,12 +116,13 @@ different:
 > extensively enough to consider they look _acceptable_ for me to invite you to
 > use this colorscheme, if happen to build software with them.
 
-**Coming Soon**: Lua ✅, Vimscript, Rust, Python, Ruby, and more!
+**Coming Soon**: Lua ✅, Vimscript (in progress), Rust, Python, Ruby, Bash, and
+many more!
 
 ## 🧩 Plugins Supported
 
-- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [NvimTree](https://github.com/nvim-tree/nvim-tree.lua)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 
 ## 🎇 Credits
 
