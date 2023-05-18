@@ -130,3 +130,5 @@ many more!
 - [Sarah Drashner](https://github.com/sdras) first and foremost, for creating
   such a beautiful and artistic color scheme that has, personally, made so much
   more _pleasurable_ the exhilirating act of building software.
+- <https://www.monolisa.dev/> for one of the sweetest programming font out
+  there.
