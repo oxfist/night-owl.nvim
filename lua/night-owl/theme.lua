@@ -58,6 +58,9 @@ theme.set_highlights = function()
   hl(0, "Error", { fg = c.error_red, bg = 'NONE' })
   hl(0, "IndentChar", { fg = c.indent_guide, bg = 'NONE' })
   hl(0, "IndentContextChar", { fg = c.magenta3, bg = 'NONE' })
+  hl(0, "FoldColumn", { fg = c.line_number_fg, bg = c.bg })
+  hl(0, "Folded", {  fg = c.line_number_active_fg, bg = c.visual })
+  hl(0, "QuickFixLine", { fg = 'NONE', bg = c.visual })
 
   -- Treesitter
   hl(0, "@class.constructor", { fg = c.blue, bg = 'NONE', italic=true, })
@@ -131,6 +134,11 @@ theme.set_highlights = function()
   hl(0, "GitGutterDelete", { fg = c.sign_delete, bg = 'NONE' })
   hl(0, "GitGutterChangeDelete", { fg = c.sign_change, bg = 'NONE' })
 
+  -- Gitsigns
+  hl(0, "GitSignsAdd", { fg = c.sign_add, bg = 'NONE' })
+  hl(0, "GitSignsChange", { fg = c.sign_change, bg = 'NONE' })
+  hl(0, "GitSignsDelete", { fg = c.sign_delete, bg = 'NONE' })
+
   -- LSP
   hl(0, "DiagnosticError", { link = 'Error' })
   hl(0, "LspInfoBorder", { fg = c.ui_border, bg = 'NONE' })
@@ -168,7 +176,10 @@ theme.set_highlights = function()
 
   -- IndentBlankline
   hl(0, "IndentBlanklineChar", { link = 'IndentChar' })
+  hl(0, "IndentBlanklineSpaceChar", { link = 'IndentChar' })
+  hl(0, "IndentBlanklineSpaceCharBlankline", { link = 'IndentChar' })
   hl(0, "IndentBlanklineContextChar", { link = 'IndentContextChar' })
+	hl(0, "IndentBlanklineContextStart", { sp = c.indent_guide, bg = 'NONE', underline = true })
 
   -- Dashboard
 
