@@ -61,11 +61,10 @@ How does this port compare to the original VSCode theme? Check it out!
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <img src="./img/vscode.png" alt="Screenshot of VSCode theme" width="1062" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1078" /> |
 
-## ✨ Why Should _I_ pick _this_ version of Night Owl?
+## ✨ Why Should You Pick _This_ Version of Night Owl?
 
-This implementation of Night Owl solves syntax highlight issues and
-discrepancies similar ports have when contrasting against the original VSCode
-theme.
+This implementation of Night Owl solves several syntax highlight issues and
+discrepancies similar ports have when comparing to the original VSCode theme.
 
 The following features allow making the programming experience as close to the
 original VSCode theme as possible:
@@ -112,9 +111,10 @@ different:
   <!-- </tr> -->
 </table>
 
-> I've personally optimized the styling and robustness for these languages
-> extensively enough to consider they look _acceptable_ for me to invite you to
-> use this colorscheme, if happen to build software with them.
+> ℹ️ I've personally optimized the styling and theme robustness for these
+> languages extensively enough to confidently say they look _acceptable_ for me
+> to invite you to use this colorscheme, if you happen to build software with
+> them.
 
 **Coming Soon**: Lua ✅, Vimscript (in progress), Rust, Python, Ruby, Bash, and
 many more!
@@ -127,8 +127,8 @@ many more!
 
 ## 🎇 Credits
 
-- [Sarah Drashner](https://github.com/sdras) first and foremost, for creating
-  such a beautiful and artistic color scheme that has, personally, made so much
-  more _pleasurable_ the exhilirating act of building software.
+- [Sarah Drasner](https://github.com/sdras) first and foremost, for creating
+  such a beautiful and artistic color scheme that has made, for me personally,
+  so much more _pleasurable_ the exhilirating act of building software.
 - <https://www.monolisa.dev/> for one of the sweetest programming fonts out
   there.
