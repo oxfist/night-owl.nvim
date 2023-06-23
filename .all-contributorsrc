@@ -26,6 +26,16 @@
         "bug",
         "doc"
       ]
+    },
+    {
+      "login": "dmnkgrc",
+      "name": "Dominik Garcia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4812676?v=4",
+      "profile": "https://github.com/dmnkgrc",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "commitType": "docs",
