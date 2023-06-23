@@ -1,5 +1,8 @@
 <div align="center">
-    <h1>🦉 night-owl.nvim 🌌</h1>
+    <h3>🦉 night-owl.nvim 🌌</h3>
+    <a href="#-contributors">
+        <img src="https://img.shields.io/github/all-contributors/oxfist/night-owl.nvim?color=ee8449&style=flat-square" alt="All Contributors"></img>
+    </a>
 </div>
 
 <div align="center">
@@ -133,3 +136,14 @@ many more!
   so much more _pleasurable_ the exhilirating act of building software.
 - <https://www.monolisa.dev/> for one of the sweetest programming fonts out
   there.
+
+## 🤝 Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
