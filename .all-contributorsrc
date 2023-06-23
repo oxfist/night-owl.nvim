@@ -2,7 +2,7 @@
   "projectName": "night-owl.nvim",
   "projectOwner": "oxfist",
   "repoType": "github",
-  "repoHost": "https://github.com/oxfist/night-owl.nvim",
+  "repoHost": "https://github.com",
   "files": ["README.md"],
   "imageSize": 100,
   "commit": true,
