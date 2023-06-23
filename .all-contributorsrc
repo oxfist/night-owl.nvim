@@ -3,7 +3,9 @@
   "projectOwner": "oxfist",
   "repoType": "github",
   "repoHost": "https://github.com/oxfist/night-owl.nvim",
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
@@ -12,5 +14,18 @@
   "wrapperTemplate": "\n<table>\n  <tbody><%= bodyContent %>  </tbody>\n<%= tableFooterContent %></table>\n\n",
   "linkToUsage": true,
   "skipCi": true,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "dmnkgrc",
+      "name": "Dominik Garcia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4812676?v=4",
+      "profile": "https://github.com/dmnkgrc",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    }
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular"
 }
