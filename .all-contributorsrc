@@ -3,7 +3,9 @@
   "projectOwner": "oxfist",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "commit": true,
   "contributorsPerLine": 7,
@@ -12,5 +14,20 @@
   "wrapperTemplate": "\n<table>\n  <tbody><%= bodyContent %>  </tbody>\n<%= tableFooterContent %></table>\n\n",
   "linkToUsage": false,
   "skipCi": true,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "oxfist",
+      "name": "Andrés Quilodrán",
+      "avatar_url": "https://avatars.githubusercontent.com/u/934679?v=4",
+      "profile": "https://github.com/oxfist",
+      "contributions": [
+        "maintenance",
+        "code",
+        "bug",
+        "doc"
+      ]
+    }
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular"
 }
