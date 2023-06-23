@@ -36,6 +36,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "nanyaDev",
+      "name": "Rish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40901142?v=4",
+      "profile": "https://github.com/nanyaDev",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "commitType": "docs",
