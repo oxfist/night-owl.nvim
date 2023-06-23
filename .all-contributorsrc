@@ -5,7 +5,7 @@
   "repoHost": "https://github.com/oxfist/night-owl.nvim",
   "files": ["README.md"],
   "imageSize": 100,
-  "commit": false,
+  "commit": true,
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
