@@ -17,7 +17,7 @@ for Neovim with Treesitter support.
 
 ## 📦 Install In Zero Time
 
-### Packer
+### packer.nvim
 
 ```lua
 use("oxfist/night-owl.nvim")
