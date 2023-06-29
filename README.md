@@ -168,6 +168,7 @@ many more!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nanyaDev"><img src="https://avatars.githubusercontent.com/u/40901142?v=4" width="100px;" alt=""/><br /><sub><b>Rish</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.lampeweb.de"><img src="https://avatars.githubusercontent.com/u/44268468?v=4" width="100px;" alt=""/><br /><sub><b>Michael Lazarski</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://denisw.de"><img src="https://avatars.githubusercontent.com/u/1032624?v=4" width="100px;" alt=""/><br /><sub><b>Denis Washington</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kmlopez-hhl"><img src="https://avatars.githubusercontent.com/u/132054595?v=4" width="100px;" alt=""/><br /><sub><b>kmlopez-hhl</b></sub></a></td>
     </tr>
   </tbody>
 </table>

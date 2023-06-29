@@ -63,6 +63,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "kmlopez-hhl",
+      "name": "kmlopez-hhl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132054595?v=4",
+      "profile": "https://github.com/kmlopez-hhl",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "commitType": "docs",
