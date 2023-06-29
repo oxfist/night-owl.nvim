@@ -31,8 +31,8 @@ require("lazy").setup({
   lazy = false, -- make sure we load this during startup if it is your main colorscheme
   priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
-   -- load the colorscheme here
-   vim.cmd([[colorscheme night-owl]])
+    -- load the colorscheme here
+    vim.cmd.colorscheme("night-owl")
   end,
 })
 ```
@@ -44,6 +44,9 @@ Plug 'oxfist/night-owl.nvim'
 ```
 
 ## 🚀 Start Using With A Single Line
+
+> ℹ️ You can skip this step if you followed the lazy.nvim setup, since that
+> already sets the colorschmeme.
 
 Add the following line to your Lua configuration files, e.g.
 `~/.config/nvim/init.lua` (your actual path might be different):
@@ -128,10 +131,10 @@ different:
   <!-- </tr> -->
 </table>
 
-> ℹ️ I've personally optimized the styling and theme robustness for these
-> languages extensively enough to confidently say they look _acceptable_ for me
-> to invite you to use this colorscheme, if you happen to build software with
-> them.
+> ℹ️ I've personally optimized the colorscheme styling and robustness for these
+> languages extensively enough to confidently say they look _acceptable_ to me.
+> If you happen to build software with them, then I invite you to try out this
+> theme! 🙂
 
 **Coming Soon**: Lua ✅, Vimscript (in progress), Rust, Python, Ruby, Bash, and
 many more!
