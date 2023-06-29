@@ -45,6 +45,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "lampewebdev",
+      "name": "Michael Lazarski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44268468?v=4",
+      "profile": "https://www.lampeweb.de",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "commitType": "docs",
