@@ -1,9 +1,13 @@
-vim.api.nvim_create_autocmd({ "FocusGained" }, {
-	pattern = "*",
-	command = "hi! link Visual VisualActive",
-})
+local colorscheme = vim.api.nvim_exec2("colorscheme", { output = true })
 
-vim.api.nvim_create_autocmd({ "FocusLost" }, {
-	pattern = "*",
-	command = "hi! link Visual VisualInactive",
-})
+if vim.deep_equal(colorscheme.output, "night-owl") then
+	vim.api.nvim_create_autocmd("FocusGained", {
+		pattern = "*",
+		command = "hi! link Visual VisualActive",
+	})
+
+	vim.api.nvim_create_autocmd("FocusLost", {
+		pattern = "*",
+		command = "hi! link Visual VisualInactive",
+	})
+end
