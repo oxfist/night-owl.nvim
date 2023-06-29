@@ -145,6 +145,7 @@ many more!
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 
 ## 🎇 Credits
 
