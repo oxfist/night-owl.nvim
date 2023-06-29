@@ -162,6 +162,7 @@ many more!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/oxfist"><img src="https://avatars.githubusercontent.com/u/934679?v=4" width="100px;" alt=""/><br /><sub><b>Andrés Quilodrán</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dmnkgrc"><img src="https://avatars.githubusercontent.com/u/4812676?v=4" width="100px;" alt=""/><br /><sub><b>Dominik Garcia</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nanyaDev"><img src="https://avatars.githubusercontent.com/u/40901142?v=4" width="100px;" alt=""/><br /><sub><b>Rish</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.lampeweb.de"><img src="https://avatars.githubusercontent.com/u/44268468?v=4" width="100px;" alt=""/><br /><sub><b>Michael Lazarski</b></sub></a></td>
     </tr>
   </tbody>
 </table>
