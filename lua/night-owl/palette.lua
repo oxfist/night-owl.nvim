@@ -18,6 +18,7 @@ local colors = {
   changed = "#a2bffc",
   quickfix_line = "#0e293f",
   ui_border = "#5f7e97",
+  ui_border2 = "#20395d",
   nvim_tree_file = "#89a4bb",
   nvim_tree_indent_marker = "#585858",
   tab_active_bg = "#0b2942",
