@@ -3,6 +3,13 @@
 (function_definition
   (bang) @keyword.function
   "abort" @keyword.abort)
+
+(return_statement
+  "return" @keyword.return)
+
+(if_statement
+  [ "if" "endif" ] @keyword.if)
+
 ([
   "execute"
   "set"
