@@ -45,8 +45,8 @@ Plug 'oxfist/night-owl.nvim'
 
 ## 🚀 Start Using With A Single Line
 
-> ℹ️ You can skip this step if you followed the lazy.nvim setup, since that
-> already sets the colorschmeme.
+> ℹ️ You can skip this step if you followed the `lazy.nvim` setup, since that
+> already sets the colorscheme.
 
 Add the following line to your Lua configuration files, e.g.
 `~/.config/nvim/init.lua` (your actual path might be different):
@@ -89,10 +89,10 @@ discrepancies similar ports have when comparing to the original VSCode theme.
 The following features allow making the programming experience as close to the
 original VSCode theme as possible:
 
-1. **Extended default highlight group**: through additional Treesitter queries.
-   See [`after/queries`](./after/queries) for details.
+1. **Extended highlight groups**: through additional Treesitter queries.
+   See [`after/queries`](./after/queries) for implementation details.
 2. **Different background color when Neovim is inactive**: through autocommands.
-   See [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua) for details.
+   See [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua) for implementation details.
 
 <details>
 <summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
