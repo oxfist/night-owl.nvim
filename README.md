@@ -155,6 +155,9 @@ many more!
 - <https://www.monolisa.dev/> for one of the sweetest programming fonts out
   there.
 
+## Code of Conduct
+See [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md).
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
