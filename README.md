@@ -158,6 +158,9 @@ many more!
 ## Code of Conduct
 See [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md).
 
+## License
+See [`LICENSE`](./LICENSE).
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
