@@ -45,7 +45,8 @@ Plug 'oxfist/night-owl.nvim'
 
 ## 🚀 Start Using With A Single Line
 
-> ℹ️ You can skip this step if you followed the `lazy.nvim` setup, since that
+> [!NOTE]
+> You can skip this step if you followed the `lazy.nvim` setup, since that
 > already sets the colorscheme.
 
 Add the following line to your Lua configuration files, e.g.
@@ -131,7 +132,8 @@ different:
   <!-- </tr> -->
 </table>
 
-> ℹ️ I've personally optimized the colorscheme styling and robustness for these
+> [!NOTE]
+> I've personally optimized the colorscheme styling and robustness for these
 > languages extensively enough to confidently say they look _acceptable_ to me.
 > If you happen to build software with them, then I invite you to try out this
 > theme! 🙂
