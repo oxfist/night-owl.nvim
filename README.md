@@ -45,9 +45,11 @@ Plug 'oxfist/night-owl.nvim'
 
 ## 🚀 Start Using With A Single Line
 
+<!-- prettier-ignore-start -->
 > [!NOTE]
 > You can skip this step if you followed the `lazy.nvim` setup, since that
 > already sets the colorscheme.
+<!-- prettier-ignore-end -->
 
 Add the following line to your Lua configuration files, e.g.
 `~/.config/nvim/init.lua` (your actual path might be different):
@@ -90,10 +92,11 @@ discrepancies similar ports have when comparing to the original VSCode theme.
 The following features allow making the programming experience as close to the
 original VSCode theme as possible:
 
-1. **Extended highlight groups**: through additional Treesitter queries.
-   See [`after/queries`](./after/queries) for implementation details.
+1. **Extended highlight groups**: through additional Treesitter queries. See
+   [`after/queries`](./after/queries) for implementation details.
 2. **Different background color when Neovim is inactive**: through autocommands.
-   See [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua) for implementation details.
+   See [`after/plugin/autocmds.lua`](./after/plugin/autocmds.lua) for
+   implementation details.
 
 <details>
 <summary>👇 Click to see comparison with <code>haishanh/night-owl.vim</code></summary>
@@ -132,14 +135,16 @@ different:
   <!-- </tr> -->
 </table>
 
+<!-- prettier-ignore-start -->
 > [!NOTE]
 > I've personally optimized the colorscheme styling and robustness for these
 > languages extensively enough to confidently say they look _acceptable_ to me.
 > If you happen to build software with them, then I invite you to try out this
 > theme! 🙂
+<!-- prettier-ignore-end -->
 
-**Coming Soon**: Lua ✅, Vimscript (in progress), Rust, Python, Ruby, Bash, and
-many more!
+**Coming Soon**: Lua ✅, Vimscript (in progress), TSX, R, Rust, Python, Ruby,
+Bash, and many more!
 
 ## 🧩 Plugins Supported
 
@@ -158,10 +163,12 @@ many more!
   there.
 
 ## Code of Conduct
-See [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md).
+
+- [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)
 
 ## License
-See [`LICENSE`](./LICENSE).
+
+- [`LICENSE`](./LICENSE)
 
 ## Contributors
 
