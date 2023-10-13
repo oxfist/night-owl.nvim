@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-    <img src="img/dark_logo.png" height="300" alt="Logo" />
+    <img src="img/dark_logo.png" height="300" alt="Illustration of an owl" />
 </div>
 
 The _best_ implementation of
@@ -153,6 +153,7 @@ Bash, and many more!
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 
 ## 🎇 Credits
 
