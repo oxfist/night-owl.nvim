@@ -9,13 +9,14 @@
 7. [x] Support for Vimscript
 8. [x] Lualine theme
 9. [x] Better highlight for checkhealth buffer
-10. [ ] Support for Vimscript
-11. [ ] Issue template
-12. [ ] `CONTRIBUTE.md`
-13. [ ] Option to enable/disable italics
-14. [ ] Option to enable/disable bold
-15. [ ] Support for Rust
-16. [ ] Support for Python
-17. [ ] Support for Ruby
-18. [ ] Support for R
-19. [ ] Support for Bash
+10. [x] `CONTRIBUTE.md`
+11. [ ] Update custom queries with prefix
+12. [ ] Support for Vimscript
+13. [ ] Issue template
+14. [ ] Option to enable/disable italics
+15. [ ] Option to enable/disable bold
+16. [ ] Support for Rust
+17. [ ] Support for Python
+18. [ ] Support for Ruby
+19. [ ] Support for R
+20. [ ] Support for Bash
