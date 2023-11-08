@@ -148,6 +148,7 @@ theme.set_highlights = function()
   -- LSP
   hl(0, "DiagnosticError", { link = 'Error' })
   hl(0, "LspInfoBorder", { fg = c.ui_border, bg = 'NONE' })
+  hl(0, "LspInlayHint", { fg = c.gray5, bg = c.blue13 })
 
   -- SemanticTokens
   hl(0, "@lsp.type.parameter", { fg = c.parameter, bg = 'NONE' })
