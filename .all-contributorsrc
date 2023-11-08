@@ -81,6 +81,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gnoeyp",
+      "name": "Silver Hong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62169778?v=4",
+      "profile": "https://github.com/gnoeyp",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "commitType": "docs",
