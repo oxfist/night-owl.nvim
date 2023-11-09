@@ -1,5 +1,7 @@
+![Syntax highlight demo](./img/calculator.png)
+
 <div align="center">
-    <h3>🦉 night-owl.nvim 🌌</h3>
+    <h1>🦉 night-owl.nvim 🌌</h1>
     <a href="#contributors">
         <img src="https://img.shields.io/github/all-contributors/oxfist/night-owl.nvim?color=ee8449&style=flat-square" alt="All Contributors"></img>
     </a>
@@ -11,9 +13,7 @@
 
 The _best_ implementation of
 [Sarah Drasner's Night Owl VSCode theme](https://github.com/sdras/night-owl-vscode-theme)
-for Neovim with Treesitter support.
-
-![Syntax highlight demo image](./img/calculator.png)
+for Neovim with support for Tree-sitter and semantic tokens.
 
 ## 📦 Install In Zero Time
 
@@ -58,7 +58,7 @@ Add the following line to your Lua configuration files, e.g.
 vim.cmd.colorscheme("night-owl")
 ```
 
-To enable `night-owl` for Lualine, simply set the theme like this in your
+To enable `night-owl` for `lualine.nvim`, simply set the theme like this in your
 settings 👇:
 
 ```lua
