@@ -195,7 +195,6 @@ theme.set_highlights = function()
   hl(0, "IblWhitespace", { link = 'IndentChar' })
   hl(0, "IblScope", { link = 'IndentCharActive' })
 
-
   -- Dashboard
 
   -- Cmp
