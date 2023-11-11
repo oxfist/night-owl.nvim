@@ -60,6 +60,7 @@ theme.set_highlights = function()
   hl(0, "Delimiter", { fg = c.fg, bg = 'NONE' })
   hl(0, "Error", { fg = c.error_red, bg = 'NONE' })
   hl(0, "IndentChar", { fg = c.indent_guide, bg = 'NONE' })
+  hl(0, "IndentCharActive", { fg = c.indent_guide_active, bg = 'NONE' })
   hl(0, "IndentContextChar", { fg = c.magenta3, bg = 'NONE' })
   hl(0, "TabLineSel", { fg = c.gray2, bg = c.tab_active_bg })
   hl(0, "TabLine", { fg = c.ui_border, bg = c.tab_inactive_bg })
@@ -188,6 +189,12 @@ theme.set_highlights = function()
   hl(0, "IndentBlanklineSpaceCharBlankline", { link = 'IndentChar' })
   hl(0, "IndentBlanklineContextChar", { link = 'IndentContextChar' })
   hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', sp = c.indent_guide, underline=true, })
+
+  -- IndentBlankline v3
+  hl(0, "IblIndent", { link = 'IndentChar' })
+  hl(0, "IblWhitespace", { link = 'IndentChar' })
+  hl(0, "IblScope", { link = 'IndentCharActive' })
+
 
   -- Dashboard
 
