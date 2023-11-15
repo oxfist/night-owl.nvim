@@ -37,6 +37,7 @@ local colors = {
   gray3 = "#36414A",
   gray4 = "#d6deeb80",
   gray5 = "#969696",
+  gray6 = "#7E97AC",
   light_blue = "#78ccf0",
   blue = "#82aaff",
   blue2 = "#0b253a",
