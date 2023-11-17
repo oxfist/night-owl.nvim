@@ -18,6 +18,7 @@ theme.set_highlights = function()
   hl(0, "FoldColumn", { fg = c.dark_cyan, bg = c.bg })
   hl(0, "FloatBorder", { fg = c.light_purple, bg = c.bg })
   hl(0, "FloatTitle", { fg = c.purple, bg = c.bg, bold=true, })
+  hl(0, "Whitespace", { fg = c.blue14, bg = 'NONE' })
   hl(0, "VertSplit", { fg = c.gray, bg = 'NONE' })
   hl(0, "CursorLine", { fg = 'NONE', bg = c.dark2 })
   hl(0, "CursorColumn", { fg = 'NONE', bg = c.cursor_fg })
@@ -40,7 +41,7 @@ theme.set_highlights = function()
   hl(0, "Title", { fg = c.title, bg = 'NONE', bold=true, })
   hl(0, "ErrorMsg", { link = 'Error' })
   hl(0, "Search", { fg = 'NONE', bg = c.search_blue })
-  hl(0, "NonText", { fg = c.bg, bg = 'NONE' })
+  hl(0, "NonText", { fg = c.gray6, bg = 'NONE' })
   hl(0, "Variable", { fg = c.parameter, bg = 'NONE' })
   hl(0, "String", { fg = c.light_orange, bg = 'NONE' })
   hl(0, "Constant", { fg = c.blue, bg = 'NONE', italic=true, })
@@ -190,10 +191,10 @@ theme.set_highlights = function()
   hl(0, "IndentBlanklineContextChar", { link = 'IndentContextChar' })
   hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', sp = c.indent_guide, underline=true, })
 
-  -- IndentBlankline v3
+  -- IndentBlankline-v3
   hl(0, "IblIndent", { link = 'IndentChar' })
-  hl(0, "IblWhitespace", { link = 'IndentChar' })
   hl(0, "IblScope", { link = 'IndentCharActive' })
+  hl(0, "IblWhitespace", { link = 'Whitespace' })
 
   -- Dashboard
 
