@@ -2,8 +2,11 @@
 class Sale {
   constructor(price) {
     [this.decoratorsList, this.price] = [[], price];
+    function() {
+		return;
+    }
   }
-
+				
   decorate(decorator) {
     if (!Sale[decorator]) throw new Error(`decorator not exist: ${decorator}`);
     this.decoratorsList.push(Sale[decorator]);
@@ -27,6 +30,8 @@ class Sale {
 }
 
 let foo = '123';
+const baz;
+const baz = 123;
 
 let sale = new Sale(500);
 sale.decorate('fedtax');
@@ -36,6 +41,13 @@ console.log(sale.getPrice()); // 112.88
 getPrice();
 
 //deeply nested
+function foobar() {
+	let a = 0;
+	function foobaz() {
+			let b = 0;
+		return;
+	}
+}
 
 /**
  * @param {undefined} nothing Nothing

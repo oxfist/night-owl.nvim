@@ -1,4 +1,4 @@
-Account = {}
+local Account = {}
 
 function Account:new(balance)
 	local t = setmetatable({}, { __index = Account })
@@ -18,7 +18,7 @@ function Account:report()
 	print("Your current balance is: " .. self.balance)
 end
 
-a = Account:new(9000)
+local a = Account:new(9000)
 a:withdraw(200) -- method call
 
 while condition do
