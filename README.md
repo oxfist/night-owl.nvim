@@ -152,6 +152,7 @@ Bash, and many more!
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+  `v2` and `v3`
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 
