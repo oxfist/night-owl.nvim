@@ -16,11 +16,11 @@ class Sale {
     return this.price.toFixed(2);
   }
 
-  static quebec(price) {
+  static quebec(price) {             
     // this is a comment
-    return price + (price * 7.5) / 100;
+    				return price + (price * 7.5) / 100;
   }
-
+    
   static fedtax(price) {
     return price + (price * 5) / 100;
   }
