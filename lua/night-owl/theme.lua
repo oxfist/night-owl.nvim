@@ -207,6 +207,8 @@ theme.set_highlights = function()
 
   -- DevIcons
   hl(0, "DevIconLua", { fg = c.purple3, bg = 'NONE' })
+  hl(0, "DevIconTxt", { fg = c.green2, bg = 'NONE' })
+  hl(0, "DevIconScheme", { fg = c.magenta, bg = 'NONE' })
 end
 
 return theme

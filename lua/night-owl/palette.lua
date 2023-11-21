@@ -57,6 +57,7 @@ local colors = {
   blue13 = "#072232",
   blue14 = "#273845",
   green = "#c5e478",
+  green2 = "#6CC85E",
   light_cyan = "#caece6",
   cyan = "#6ae9f0",
   cyan2 = "#7fdbca",
