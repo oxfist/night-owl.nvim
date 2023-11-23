@@ -1,11 +1,19 @@
 
 local c = require('night-owl.palette')
 
-local hl = vim.api.nvim_set_hl
 local theme = {}
+theme.settings = {
+    italics = true
+}
+
+local function hl(id, name, def)
+  if not theme.settings.italics then
+      def["italic"] = false
+  end
+  vim.api.nvim_set_hl(id, name, def)
+end
 
 theme.set_highlights = function()
-
   -- highlights
   hl(0, "Normal", { fg = c.fg, bg = c.bg })
   hl(0, "SignColumn", { fg = 'NONE', bg = c.bg })
