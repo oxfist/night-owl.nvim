@@ -209,6 +209,15 @@ theme.set_highlights = function()
   hl(0, "DevIconLua", { fg = c.purple3, bg = 'NONE' })
   hl(0, "DevIconTxt", { fg = c.green2, bg = 'NONE' })
   hl(0, "DevIconScheme", { fg = c.magenta, bg = 'NONE' })
+
+  -- RainbowDelimiters
+  hl(0, "RainbowDelimiterRed", { fg = c.red, bg = 'NONE' })
+  hl(0, "RainbowDelimiterYellow", { fg = c.light_orange, bg = 'NONE' })
+  hl(0, "RainbowDelimiterBlue", { fg = c.blue, bg = 'NONE' })
+  hl(0, "RainbowDelimiterOrange", { fg = c.orange, bg = 'NONE' })
+  hl(0, "RainbowDelimiterGreen", { fg = c.green, bg = 'NONE' })
+  hl(0, "RainbowDelimiterViolet", { fg = c.magneta, bg = 'NONE' })
+  hl(0, "RainbowDelimiterCyan", { fg = c.cyan2, bg = 'NONE' })
 end
 
 return theme
