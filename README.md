@@ -163,6 +163,9 @@ Bash, and many more!
   so much more _pleasurable_ the exhilirating act of building software.
 - <https://www.monolisa.dev/> for one of the sweetest programming fonts out
   there.
+- [Christian Chiarulli](https://github.com/ChristianChiarulli) for creating
+  [`colorgen-nvim`](https://github.com/LunarVim/colorgen-nvim), an essential
+  tool that helped me get started with this implementation.
 
 ## Code of Conduct
 
