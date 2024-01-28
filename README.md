@@ -85,7 +85,7 @@ The styling of the theme can be customized by calling `setup()`:
 ```lua
 local night_owl = require("night-owl")
 
--- 👇 Add your own perosonal settings here
+-- 👇 Add your own personal settings here
 night_owl.setup({
     -- These are the default settings
     bold = true,
