@@ -215,6 +215,7 @@ Bash, and many more!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gnoeyp"><img src="https://avatars.githubusercontent.com/u/62169778?v=4" width="100px;" alt=""/><br /><sub><b>Silver Hong</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sebvilhelm"><img src="https://avatars.githubusercontent.com/u/25344971?v=4" width="100px;" alt=""/><br /><sub><b>Sebastian Vilhelm Juhl</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jdsprink91"><img src="https://avatars.githubusercontent.com/u/19441026?v=4" width="100px;" alt=""/><br /><sub><b>Jason Sprinkle</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bendk"><img src="https://avatars.githubusercontent.com/u/1012809?v=4" width="100px;" alt=""/><br /><sub><b>bendk</b></sub></a></td>
     </tr>
   </tbody>
 </table>
