@@ -58,6 +58,12 @@ Add the following line to your Lua configuration files, e.g.
 vim.cmd.colorscheme("night-owl")
 ```
 
+Or by requiring the plugin, then calling `setup()`:
+
+```lua
+require("night_owl").setup()
+```
+
 To enable `night-owl` for `lualine.nvim`, simply set the theme like this in your
 settings 👇:
 
@@ -70,6 +76,20 @@ require('lualine').setup {
     -- ... other configs
   }
 }
+```
+
+## ⚙️ Configuration
+
+The styling of the theme can be customized by calling `setup()`:
+
+```lua
+local night_owl = require("night-owl")
+
+-- 👇 Add your own perosonal settings here
+night_owl.setup({
+    -- These are the default settings
+    italics = true
+})
 ```
 
 ## 🖥️ Requirements
