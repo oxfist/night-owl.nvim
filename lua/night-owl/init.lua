@@ -1,27 +1,7 @@
-local M = {}
-local theme = require('night-owl.theme')
+local config = require("night-owl.config")
 
-local function handle_options(opts)
-    if opts["italics"] == false then
-        theme.settings.italics = false
-    end
-end
+local night_owl = {}
 
-M.setup = function(opts)
-  if opts ~= nil then
-      handle_options(opts)
-  end
-  vim.cmd('hi clear')
+night_owl.setup = config.setup
 
-  vim.o.background = 'dark'
-  if vim.fn.exists('syntax_on') then
-    vim.cmd('syntax reset')
-  end
-
-  vim.o.termguicolors = true
-  vim.g.colors_name = 'night-owl'
-
-  theme.set_highlights()
-end
-
-return M
+return night_owl
