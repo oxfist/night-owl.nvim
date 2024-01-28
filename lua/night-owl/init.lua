@@ -1,18 +1,7 @@
-local M = {}
-local theme = require('night-owl.theme')
+local config = require("night-owl.config")
 
-M.setup = function()
-  vim.cmd('hi clear')
+local night_owl = {}
 
-  vim.o.background = 'dark'
-  if vim.fn.exists('syntax_on') then
-    vim.cmd('syntax reset')
-  end
+night_owl.setup = config.setup
 
-  vim.o.termguicolors = true
-  vim.g.colors_name = 'night-owl'
-
-  theme.set_highlights()
-end
-
-return M
+return night_owl
