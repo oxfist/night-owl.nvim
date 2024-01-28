@@ -88,6 +88,7 @@ local night_owl = require("night-owl")
 -- 👇 Add your own perosonal settings here
 night_owl.setup({
     -- These are the default settings
+    bold = true,
     italics = true
 })
 ```
