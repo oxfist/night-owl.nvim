@@ -4,6 +4,7 @@ local M = {}
 
 ---@class Config
 local defaults = {
+	bold = true,
 	italics = true,
 }
 

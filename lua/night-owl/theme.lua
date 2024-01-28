@@ -16,7 +16,7 @@ function theme.set_highlights(settings)
 	hl(0, "Folded", { fg = palette.dark_cyan, bg = palette.folded_bg })
 	hl(0, "FoldColumn", { fg = palette.dark_cyan, bg = palette.bg })
 	hl(0, "FloatBorder", { fg = palette.light_purple, bg = palette.bg })
-	hl(0, "FloatTitle", { fg = palette.purple, bg = palette.bg, bold = true })
+	hl(0, "FloatTitle", { fg = palette.purple, bg = palette.bg, bold = settings.bold })
 	hl(0, "Whitespace", { fg = palette.blue14, bg = "NONE" })
 	hl(0, "VertSplit", { fg = palette.gray, bg = "NONE" })
 	hl(0, "LineNr", { fg = palette.line_number_fg, bg = "NONE" })
@@ -37,7 +37,7 @@ function theme.set_highlights(settings)
 	hl(0, "MatchParen", { fg = "NONE", bg = palette.match_paren, sp = "NONE" })
 	hl(0, "Conceal", { fg = palette.ui_border2, bg = "NONE" })
 	hl(0, "Directory", { fg = palette.blue, bg = "NONE" })
-	hl(0, "Title", { fg = palette.title, bg = "NONE", bold = true })
+	hl(0, "Title", { fg = palette.title, bg = "NONE", bold = settings.bold })
 	hl(0, "ErrorMsg", { link = "Error" })
 	hl(0, "Search", { fg = "NONE", bg = palette.search_blue })
 	hl(0, "IncSearch", { fg = "NONE", bg = palette.incremental_search_blue })
@@ -123,7 +123,7 @@ function theme.set_highlights(settings)
 	hl(0, "@text.literal", { fg = palette.green, bg = "NONE" })
 	hl(0, "@text.uri", { fg = palette.light_red, bg = "NONE", underline = true })
 	hl(0, "@text.emphasis", { fg = palette.magenta, bg = "NONE", italic = settings.italics })
-	hl(0, "@text.strong", { fg = palette.green, bg = "NONE", bold = true })
+	hl(0, "@text.strong", { fg = palette.green, bg = "NONE", bold = settings.bold })
 	hl(0, "@text.todo", { fg = palette.bg, bg = palette.fg })
 	hl(0, "@operator.lua", { fg = palette.cyan2, bg = "NONE" })
 	hl(0, "@operator.toml", { fg = palette.fg, bg = "NONE" })
@@ -166,7 +166,7 @@ function theme.set_highlights(settings)
 
 	-- Telescope
 	hl(0, "TelescopeSelection", { fg = "NONE", bg = palette.visual })
-	hl(0, "TelescopeMatching", { fg = palette.nvim_tree_file, bg = "NONE", bold = true })
+	hl(0, "TelescopeMatching", { fg = palette.nvim_tree_file, bg = "NONE", bold = settings.bold })
 	hl(0, "TelescopeBorder", { fg = palette.ui_border, bg = "NONE" })
 
 	-- NvimTree
@@ -174,7 +174,7 @@ function theme.set_highlights(settings)
 	hl(0, "NvimTreeNormal", { fg = palette.dark_white, bg = "NONE" })
 	hl(0, "NvimTreeNormalNC", { fg = palette.ui_border, bg = "NONE" })
 	hl(0, "NvimTreeSpecialFile", { fg = palette.orange, bg = "NONE" })
-	hl(0, "NvimTreeOpenedFile", { fg = "NONE", bg = "NONE", bold = true })
+	hl(0, "NvimTreeOpenedFile", { fg = "NONE", bg = "NONE", bold = settings.bold })
 	hl(0, "NvimTreeImageFile", { fg = palette.nvim_tree_file, bg = "NONE" })
 	hl(0, "NvimTreeCursorLine", { fg = "NONE", bg = palette.quickfix_line })
 	hl(0, "NvimTreeGitStaged", { fg = palette.sign_change, bg = "NONE" })
@@ -183,7 +183,11 @@ function theme.set_highlights(settings)
 	hl(0, "NvimTreeGitDeleted", { fg = palette.sign_delete, bg = "NONE" })
 	hl(0, "NvimTreeGitDirty", { fg = palette.changed, bg = "NONE" })
 	hl(0, "NvimTreeRootFolder", { fg = palette.magenta, bg = "NONE" })
-	hl(0, "NvimTreeWindowPicker", { fg = palette.orange2, bg = palette.dark, bold = true, italic = settings.italics })
+	hl(
+		0,
+		"NvimTreeWindowPicker",
+		{ fg = palette.orange2, bg = palette.dark, bold = settings.bold, italic = settings.italics }
+	)
 
 	-- Buffer
 
