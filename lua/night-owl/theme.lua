@@ -31,7 +31,7 @@ function theme.set_highlights(settings)
 	hl(0, "NormalFloat", { fg = "NONE", bg = palette.bg, sp = "NONE", blend = 0 })
 	hl(0, "Visual", { link = "@nowl.visual.active" })
 	hl(0, "DiffAdd", { fg = palette.bg, bg = palette.sign_add })
-	hl(0, "DiffChange", { fg = palette.bg, bg = palette.sign_change, underline = true })
+	hl(0, "DiffChange", { fg = palette.bg, bg = palette.sign_change, settings.underline })
 	hl(0, "DiffDelete", { fg = palette.bg, bg = palette.sign_delete })
 	hl(0, "QuickFixLine", { fg = "NONE", bg = palette.quickfix_line })
 	hl(0, "MatchParen", { fg = "NONE", bg = palette.match_paren, sp = "NONE" })
@@ -121,7 +121,7 @@ function theme.set_highlights(settings)
 	hl(0, "@parameter", { fg = palette.parameter, bg = "NONE" })
 	hl(0, "@parameter.jsdoc", { fg = palette.light_blue, bg = "NONE" })
 	hl(0, "@text.literal", { fg = palette.green, bg = "NONE" })
-	hl(0, "@text.uri", { fg = palette.light_red, bg = "NONE", underline = true })
+	hl(0, "@text.uri", { fg = palette.light_red, bg = "NONE", settings.underline })
 	hl(0, "@text.emphasis", { fg = palette.magenta, bg = "NONE", italic = settings.italics })
 	hl(0, "@text.strong", { fg = palette.green, bg = "NONE", bold = settings.bold })
 	hl(0, "@text.todo", { fg = palette.bg, bg = palette.fg })
@@ -153,7 +153,7 @@ function theme.set_highlights(settings)
 
 	-- LSP
 	hl(0, "DiagnosticError", { link = "Error" })
-	hl(0, "DiagnosticUnderlineError", { fg = "NONE", bg = "NONE", sp = palette.error_red, undercurl = true })
+	hl(0, "DiagnosticUnderlineError", { fg = "NONE", bg = "NONE", sp = palette.error_red, settings.undercurl })
 	hl(0, "LspInfoBorder", { fg = palette.ui_border, bg = "NONE" })
 	hl(0, "LspInlayHint", { fg = palette.gray5, bg = palette.blue13 })
 
@@ -201,7 +201,7 @@ function theme.set_highlights(settings)
 	hl(
 		0,
 		"IndentBlanklineContextStart",
-		{ fg = "NONE", bg = "NONE", sp = palette.indent_guide_active, underline = true }
+		{ fg = "NONE", bg = "NONE", sp = palette.indent_guide_active, settings.underline }
 	)
 
 	-- IndentBlankline-v3

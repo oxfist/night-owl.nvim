@@ -6,6 +6,8 @@ local M = {}
 local defaults = {
 	bold = true,
 	italics = true,
+	underline = true,
+	undercurl = true,
 }
 
 local function set_default_settings()
