@@ -8,6 +8,7 @@ local defaults = {
 	italics = true,
 	underline = true,
 	undercurl = true,
+	transparent_background = false,
 }
 
 local function set_default_settings()

@@ -7,8 +7,10 @@ local function hl(id, name, def)
 end
 
 function theme.set_highlights(settings)
+	local background_color = settings.transparent_background and "NONE" or palette.bg
+
 	-- highlights
-	hl(0, "Normal", { fg = palette.fg, bg = palette.bg })
+	hl(0, "Normal", { fg = palette.fg, bg = background_color })
 	hl(0, "SignColumn", { fg = "NONE", bg = palette.bg })
 	hl(0, "Pmenu", { fg = "NONE", bg = palette.dark })
 	hl(0, "PmenuSel", { fg = "NONE", bg = palette.quickfix_line })
@@ -153,7 +155,11 @@ function theme.set_highlights(settings)
 
 	-- LSP
 	hl(0, "DiagnosticError", { link = "Error" })
-	hl(0, "DiagnosticUnderlineError", { fg = "NONE", bg = "NONE", sp = palette.error_red, undercurl = settings.undercurl })
+	hl(
+		0,
+		"DiagnosticUnderlineError",
+		{ fg = "NONE", bg = "NONE", sp = palette.error_red, undercurl = settings.undercurl }
+	)
 	hl(0, "LspInfoBorder", { fg = palette.ui_border, bg = "NONE" })
 	hl(0, "LspInlayHint", { fg = palette.gray5, bg = palette.blue13 })
 
