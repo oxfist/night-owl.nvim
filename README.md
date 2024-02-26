@@ -61,7 +61,7 @@ vim.cmd.colorscheme("night-owl")
 Or by requiring the plugin, then calling `setup()`:
 
 ```lua
-require("night_owl").setup()
+require("night-owl").setup()
 ```
 
 To enable `night-owl` for `lualine.nvim`, simply set the theme like this in your
