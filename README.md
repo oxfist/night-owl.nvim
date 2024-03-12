@@ -230,4 +230,4 @@ Bash, and many more!
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
-# <!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
