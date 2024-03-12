@@ -1,14 +1,15 @@
-![Syntax highlight demo](./img/calculator.png)
-
 <div align="center">
     <h1>🦉 night-owl.nvim 🌌</h1>
     <a href="#contributors">
         <img src="https://img.shields.io/github/all-contributors/oxfist/night-owl.nvim?color=ee8449&style=flat-square" alt="All Contributors"></img>
     </a>
 </div>
-
 <div align="center">
-    <img src="img/dark_logo.png" height="300" alt="Illustration of an owl" />
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/light_logo.png" alt="Illustration of an owl">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/dark_logo.png" alt="Illustration of an owl">
+        <img src="img/light_logo.png" height="300" alt="Illustration of an owl" />
+    </picture>
 </div>
 
 The _best_ implementation of
@@ -229,4 +230,4 @@ Bash, and many more!
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+# <!-- ALL-CONTRIBUTORS-LIST:END -->
