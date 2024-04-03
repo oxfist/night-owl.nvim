@@ -223,6 +223,7 @@ Bash, and many more!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jdsprink91"><img src="https://avatars.githubusercontent.com/u/19441026?v=4" width="100px;" alt=""/><br /><sub><b>Jason Sprinkle</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/bendk"><img src="https://avatars.githubusercontent.com/u/1012809?v=4" width="100px;" alt=""/><br /><sub><b>bendk</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gokayburuc"><img src="https://avatars.githubusercontent.com/u/20437751?v=4" width="100px;" alt=""/><br /><sub><b>Gökay BÜRÜÇ</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aleetsaiya"><img src="https://avatars.githubusercontent.com/u/67775387?v=4" width="100px;" alt=""/><br /><sub><b>Sean Tsai</b></sub></a></td>
     </tr>
   </tbody>
 </table>
