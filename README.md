@@ -1,15 +1,14 @@
+![Syntax highlight demo](./img/calculator.png)
+
 <div align="center">
     <h1>🦉 night-owl.nvim 🌌</h1>
     <a href="#contributors">
         <img src="https://img.shields.io/github/all-contributors/oxfist/night-owl.nvim?color=ee8449&style=flat-square" alt="All Contributors"></img>
     </a>
 </div>
+
 <div align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/light_logo.png" alt="Illustration of an owl">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/dark_logo.png" alt="Illustration of an owl">
-        <img src="img/light_logo.png" height="300" alt="Illustration of an owl" />
-    </picture>
+    <img src="img/dark_logo.png" height="300" alt="Illustration of an owl" />
 </div>
 
 The _best_ implementation of
@@ -59,12 +58,6 @@ Add the following line to your Lua configuration files, e.g.
 vim.cmd.colorscheme("night-owl")
 ```
 
-Or by requiring the plugin, then calling `setup()`:
-
-```lua
-require("night-owl").setup()
-```
-
 To enable `night-owl` for `lualine.nvim`, simply set the theme like this in your
 settings 👇:
 
@@ -77,25 +70,6 @@ require('lualine').setup {
     -- ... other configs
   }
 }
-```
-
-## ⚙️ Configuration
-
-The styling of the theme can be customized by calling `setup()`:
-
-```lua
-local night_owl = require("night-owl")
-
--- 👇 Add your own personal settings here
---@param options Config|nil
-night_owl.setup({
-    -- These are the default settings
-    bold = true,
-    italics = true,
-    underline = true,
-    undercurl = true,
-    transparent_background = false,
-})
 ```
 
 ## 🖥️ Requirements
@@ -189,9 +163,6 @@ Bash, and many more!
   so much more _pleasurable_ the exhilirating act of building software.
 - <https://www.monolisa.dev/> for one of the sweetest programming fonts out
   there.
-- [Christian Chiarulli](https://github.com/ChristianChiarulli) for creating
-  [`colorgen-nvim`](https://github.com/LunarVim/colorgen-nvim), an essential
-  tool that helped me get started with this implementation.
 
 ## Code of Conduct
 
@@ -221,9 +192,6 @@ Bash, and many more!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/gnoeyp"><img src="https://avatars.githubusercontent.com/u/62169778?v=4" width="100px;" alt=""/><br /><sub><b>Silver Hong</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sebvilhelm"><img src="https://avatars.githubusercontent.com/u/25344971?v=4" width="100px;" alt=""/><br /><sub><b>Sebastian Vilhelm Juhl</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jdsprink91"><img src="https://avatars.githubusercontent.com/u/19441026?v=4" width="100px;" alt=""/><br /><sub><b>Jason Sprinkle</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bendk"><img src="https://avatars.githubusercontent.com/u/1012809?v=4" width="100px;" alt=""/><br /><sub><b>bendk</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/gokayburuc"><img src="https://avatars.githubusercontent.com/u/20437751?v=4" width="100px;" alt=""/><br /><sub><b>Gökay BÜRÜÇ</b></sub></a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aleetsaiya"><img src="https://avatars.githubusercontent.com/u/67775387?v=4" width="100px;" alt=""/><br /><sub><b>Sean Tsai</b></sub></a></td>
     </tr>
   </tbody>
 </table>
