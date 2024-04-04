@@ -108,6 +108,34 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "bendk",
+      "name": "bendk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1012809?v=4",
+      "profile": "https://github.com/bendk",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gokayburuc",
+      "name": "Gökay BÜRÜÇ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20437751?v=4",
+      "profile": "https://github.com/gokayburuc",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "aleetsaiya",
+      "name": "Sean Tsai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67775387?v=4",
+      "profile": "https://github.com/aleetsaiya",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "commitType": "docs",
