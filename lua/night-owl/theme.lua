@@ -233,6 +233,20 @@ function theme.set_highlights(settings)
 	hl(0, "RainbowDelimiterGreen", { fg = palette.green, bg = "NONE" })
 	hl(0, "RainbowDelimiterViolet", { fg = palette.magneta, bg = "NONE" })
 	hl(0, "RainbowDelimiterCyan", { fg = palette.cyan2, bg = "NONE" })
+
+	-- nvim-cmp completions menu
+	hl(0, "CmpItemAbbrDeprecated", { bg = "NONE", strikethrough = true, fg = "#969696" })
+	hl(0, "CmpItemAbbrMatch", { bg = "NONE", fg = palette.blue })
+	hl(0, "CmpItemAbbrMatchFuzzy", { link = "CmpIntemAbbrMatch" })
+	hl(0, "CmpItemKindClass", { bg = "NONE", fg = palette.orange2 })
+	hl(0, "CmpItemKindInterface", { link = "CmpItemKindClass" })
+	hl(0, "CmpItemKindVariable", { bg = "NONE", fg = palette.white })
+	hl(0, "CmpItemKindText", { link = "CmpItemKindVariable" })
+	hl(0, "CmpItemKindFunction", { bg = "NONE", fg = palette.blue })
+	hl(0, "CmpItemKindMethod", { link = "CmpItemKindFunction" })
+	hl(0, "CmpItemKindKeyword", { bg = "NONE", fg = palette.magenta })
+	hl(0, "CmpItemKindProperty", { bg = "NONE", fg = palette.cyan5 })
+	hl(0, "CmpItemKindUnit", { bg = "NONE", fg = palette.red })
 end
 
 return theme
