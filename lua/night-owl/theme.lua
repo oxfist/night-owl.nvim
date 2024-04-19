@@ -221,7 +221,7 @@ function theme.set_highlights(settings)
 	hl(0, "IlluminatedWordWrite", { fg = "NONE", bg = palette.word_highlight_write })
 
 	-- DevIcons
-	hl(0, "DevIconLua", { fg = palette.purple3, bg = "NONE" })
+	hl(0, "DevIconLua", { fg = palette.purple2, bg = "NONE" })
 	hl(0, "DevIconTxt", { fg = palette.green2, bg = "NONE" })
 	hl(0, "DevIconScheme", { fg = palette.magenta, bg = "NONE" })
 
