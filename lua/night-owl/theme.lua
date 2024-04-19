@@ -221,9 +221,28 @@ function theme.set_highlights(settings)
 	hl(0, "IlluminatedWordWrite", { fg = "NONE", bg = palette.word_highlight_write })
 
 	-- DevIcons
-	hl(0, "DevIconLua", { fg = palette.purple3, bg = "NONE" })
+	hl(0, "DevIconLua", { fg = palette.purple2, bg = "NONE" })
 	hl(0, "DevIconTxt", { fg = palette.green2, bg = "NONE" })
 	hl(0, "DevIconScheme", { fg = palette.magenta, bg = "NONE" })
+
+	-- RainbowDelimiters
+	hl(0, "RainbowDelimiterYellow", { fg = palette.light_orange, bg = "NONE" })
+	hl(0, "RainbowDelimiterViolet", { fg = palette.magneta, bg = "NONE" })
+	hl(0, "RainbowDelimiterBlue", { fg = palette.blue, bg = "NONE" })
+
+	-- Nvim-CMP
+	-- hl(0, "CmpItemAbbrDeprecated", { bg = "NONE", strikethrough = true, fg = "#969696" })
+	-- hl(0, "CmpItemAbbrMatch", { bg = "NONE", fg = palette.blue })
+	-- hl(0, "CmpItemAbbrMatchFuzzy", { link = "CmpIntemAbbrMatch" })
+	-- hl(0, "CmpItemKindClass", { bg = "NONE", fg = palette.orange2 })
+	-- hl(0, "CmpItemKindInterface", { link = "CmpItemKindClass" })
+	-- hl(0, "CmpItemKindVariable", { bg = "NONE", fg = palette.white })
+	-- hl(0, "CmpItemKindText", { link = "CmpItemKindVariable" })
+	-- hl(0, "CmpItemKindFunction", { bg = "NONE", fg = palette.blue })
+	-- hl(0, "CmpItemKindMethod", { link = "CmpItemKindFunction" })
+	-- hl(0, "CmpItemKindKeyword", { bg = "NONE", fg = palette.magenta })
+	-- hl(0, "CmpItemKindProperty", { bg = "NONE", fg = palette.cyan5 })
+	-- hl(0, "CmpItemKindUnit", { bg = "NONE", fg = palette.red })
 end
 
 return theme
