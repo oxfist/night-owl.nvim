@@ -226,6 +226,9 @@ Bash, and many more!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aleetsaiya"><img src="https://avatars.githubusercontent.com/u/67775387?v=4" width="100px;" alt=""/><br /><sub><b>Sean Tsai</b></sub></a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://georgiykuzora.ru/"><img src="https://avatars.githubusercontent.com/u/77954822?v=4" width="100px;" alt=""/><br /><sub><b>Georgiy Kuzora</b></sub></a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/andrew-george"><img src="https://avatars.githubusercontent.com/u/95014217?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Berty</b></sub></a></td>
+    </tr>
   </tbody>
 </table>
 
