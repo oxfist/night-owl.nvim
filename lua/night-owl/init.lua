@@ -1,7 +1,26 @@
 local config = require("night-owl.config")
+local theme = require("night-owl.theme")
 
-local night_owl = {}
+local M = {}
+M._options = nil
 
-night_owl.setup = config.setup
+--- Loads the theme without going through the default activation.
+function M._load()
+	if not M._options then
+		M._options = config.options
+	end
 
-return night_owl
+	M.load(M._options)
+end
+
+---@param opts Config|nil
+function M.load(opts)
+	if opts then
+		config.extend(opts)
+	end
+	theme.set_highlights(M._options)
+end
+
+M.setup = config.setup
+
+return M
