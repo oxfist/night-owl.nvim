@@ -1,5 +1,3 @@
-local theme = require("night-owl.theme")
-
 local M = {}
 
 ---@class Config

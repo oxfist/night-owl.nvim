@@ -18,7 +18,7 @@ function M.load(opts)
 	if opts then
 		config.extend(opts)
 	end
-	theme.set_highlights(M._options)
+	theme.set_highlights(opts)
 end
 
 M.setup = config.setup
