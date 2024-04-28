@@ -33,6 +33,7 @@ require("lazy").setup({
   priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
     -- load the colorscheme here
+    require("night-owl").setup()
     vim.cmd.colorscheme("night-owl")
   end,
 })
@@ -48,21 +49,16 @@ Plug 'oxfist/night-owl.nvim'
 
 <!-- prettier-ignore-start -->
 > [!NOTE]
-> You can skip this step if you followed the `lazy.nvim` setup, since that
-> already sets the colorscheme.
+> You can skip this step if you followed the `lazy.nvim` setup (that
+> already sets the colorscheme).
 <!-- prettier-ignore-end -->
 
-Add the following line to your Lua configuration files, e.g.
+Add the following to your Lua configuration files, e.g.
 `~/.config/nvim/init.lua` (your actual path might be different):
 
 ```lua
-vim.cmd.colorscheme("night-owl")
-```
-
-Or by requiring the plugin, then calling `setup()`:
-
-```lua
 require("night-owl").setup()
+vim.cmd.colorscheme("night-owl")
 ```
 
 To enable `night-owl` for `lualine.nvim`, simply set the theme like this in your
