@@ -224,6 +224,7 @@ Bash, and many more!
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/andrew-george"><img src="https://avatars.githubusercontent.com/u/95014217?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Berty</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FStanDev"><img src="https://avatars.githubusercontent.com/u/116457798?v=4" width="100px;" alt=""/><br /><sub><b>FStanDev</b></sub></a></td>
     </tr>
   </tbody>
 </table>
