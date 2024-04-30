@@ -12,11 +12,11 @@
 10. [x] `CONTRIBUTE.md`
 11. [x] Option to enable/disable italics
 12. [x] Option to enable/disable bold
-13. [ ] Support for R
-14. [ ] Update custom queries with prefix
-15. [ ] Issue template
-16. [ ] Support for Rust
-17. [ ] Support for Vimscript
-18. [ ] Support for Python
+13. [x] Support for Vimscript
+14. [x] Support for R
+15. [ ] Support for Python
+16. [ ] Update custom queries with prefix
+17. [ ] Issue template
+18. [ ] Support for Rust
 19. [ ] Support for Ruby
 20. [ ] Support for Bash
