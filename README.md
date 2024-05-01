@@ -151,8 +151,8 @@ different:
   <tr>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" alt="Vimscript" width="50" /></td>
     <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R" width="50" /></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="50" /></td>
     <!-- <td><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" alt="Rust" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
-    <!-- <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
     <!-- <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" alt="Ruby" width="50" style="filter: grayscale(100%) blur(2px)"/></td> -->
     <!-- <td></td> -->
   </tr>
@@ -166,8 +166,13 @@ different:
 > theme! 🙂
 <!-- prettier-ignore-end -->
 
-**Coming Soon**: Lua ✅, Vimscript ✅, R ✅, Bash, Python, TSX, Rust, Ruby, and
-many more!
+**Coming Soon:**
+
+- Lua ✅
+- Vimscript ✅
+- R ✅
+- Python ✅
+- Bash, TSX, Rust, Ruby, and many more!
 
 ## 🧩 Plugins Supported
 

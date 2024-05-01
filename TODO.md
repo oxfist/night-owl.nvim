@@ -14,7 +14,7 @@
 12. [x] Option to enable/disable bold
 13. [x] Support for Vimscript
 14. [x] Support for R
-15. [ ] Support for Python
+15. [x] Support for Python
 16. [ ] Update custom queries with prefix
 17. [ ] Issue template
 18. [ ] Support for Rust
