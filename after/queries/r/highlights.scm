@@ -1,7 +1,7 @@
 ;; extends
 
 (dollar
-  (identifier) @variable.object
+  (identifier) @nowl.variable.object
   (identifier))
 
 (call
@@ -11,4 +11,11 @@
               function: (identifier)))
 
 ((string
-   "\"" @punctuation.string.delimeter))
+   "\"" @nowl.punctuation.string.delimiter))
+
+(left_assignment
+  name: (identifier) @lsp.type.function
+  value: (function_definition))
+
+((na) @nowl.constant.builtin.na
+      (#set! "priority" 200))

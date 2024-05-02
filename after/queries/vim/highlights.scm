@@ -59,3 +59,6 @@
   "eval"
   ] @command
  (#set! "priority" 200))
+
+(scoped_identifier
+  (scope) @module)

@@ -8,7 +8,7 @@
     name: (identifier) @include.identifier))
 
 (member_expression
-  object: (identifier) @variable.object
+  object: (identifier) @nowl.variable.object
   (#set! "priority" 200))
 
 (new_expression
@@ -22,7 +22,7 @@
  "'"
  "`"
  "\""
-] @punctuation.string.delimiter
+] @nowl.punctuation.string.delimiter
 
 (member_expression 
   "." @punctuation.accessor
@@ -57,7 +57,7 @@ operator: ("of") @operator.of
               (#lua-match? @constant "^[A-Z][A-Z_0-9]*$")
               (#set! "priority" 200))
 
-(null) @constant.builtin.null
+(null) @nowl.constant.builtin.null
 
 (export_statement
   "export" @keyword.export)

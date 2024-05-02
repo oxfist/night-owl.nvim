@@ -1,45 +1,68 @@
-setwd("/Users/example/")
-data <- read.csv("budget.csv", sep = ";")
+library(ggplot2)
 
-plot(data$sqft, data$building_scale)
-hist(data$sqft)
-hist(data$building_scale)
-cor.test(data$sqft, data$building_scale, na.action = "na.omit", method = c("kendall"))
-cor.test(data$sqft, data$building_scale, na.action = "na.omit", method = c("pearson"))
+sqrt_result <- base::sqrt(16)
+print(sqrt_result)
 
-# 2. Lorem Ipsum
-
-colnames(data)
-numerical_data <- data[sapply(data, is.numeric)]
-
-r <- cor(data$building_scale, data$sqft)
-print(r^2)
-
-if (!dir.exists("data")) {
-  dir.create("data")
+calculate_area <- function(radius) {
+  pi <- 3.14
+  return(pi * radius^2) # Using arithmetic operators
 }
 
-lorem <- NA
+check_number <- function(num) {
+  if (num > 0) {
+    return("Positive")
+  } else if (num < 0) {
+    return("Negative")
+  } else {
+    return("Zero")
+  }
+}
 
-credit_data <- readxl::read_xlsx("banks.xlsx")
-credit_data <- janitor::clean_names(banks)
+function(num) {
+  if (num > 0) {
+    return("Positive")
+  } else if (num < 0) {
+    return("Negative")
+  } else {
+    return("Zero")
+  }
+}
 
-credit_data %>%
-  select(age, credit) %>%
-  mutate(age_range = case_when(
-    between(age, 18, 29) ~ "Young",
-    between(age, 30, 45) ~ "Young Adult",
-    between(age, 46, 50) ~ "Adult",
-    .default = "Elderly"
-  )) %>%
-  filter(credit == 1) %>%
-  select(age_rage) %>%
-  group_by(age_range) %>%
-  count()
+for (i in 1:5) {
+  print(i)
+}
 
-table(credit_data$children[credit_data$credit == 1])
+while(count < 10) {
+  print(count)
+  count <- count + 1
+}
 
-credit_data %>%
-  select(province, monthly_income) %>%
-  group_by(province) %>%
-  summarise(mean_income = mean(monthly_income, na.rm = TRUE))
+v <- switch(x, "a"="apple", "b"="banana", "c"="cherry")
+v <- NA | TRUE
+
+squares <- sapply(1:10, function(x) x^2)
+student <- list("name" = "John", "age" = 20, "grades" = c(85, 90, 78, 92, 88))
+penguins[1, 1]
+
+print(student$name)
+cor.test(student$grades, student$age)
+
+tryCatch(print(5 / 0), error = function(e) print("Cannot divide by zero"))
+
+Animal <- setRefClass("Animal",
+  fields = list(name = "character"),
+  methods = list(
+    initialize = function(name) {
+      .self$name <- name
+    },
+    speak = function() {
+      return(paste(.self$name, "says hello!"))
+    }
+  )
+)
+
+dog <- Animal$new("Rex")
+print(dog$speak())
+
+print(calculate_area(5))
+print(check_number(-10))

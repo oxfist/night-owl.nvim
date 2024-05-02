@@ -1,10 +1,10 @@
 ;; extends
 
 ((string
-   start: ["\"" "[["] @punctuation.string.delimiter (#set! "priority" 200)))
+   start: ["\"" "[["] @nowl.punctuation.string.delimiter (#set! "priority" 200)))
 
 ((string
-   end: ["\"" "]]"] @punctuation.string.delimiter (#set! "priority" 200)))
+   end: ["\"" "]]"] @nowl.punctuation.string.delimiter (#set! "priority" 200)))
 
 (dot_index_expression
   table: (identifier) @variable.builtin
