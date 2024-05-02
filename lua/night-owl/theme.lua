@@ -79,6 +79,7 @@ function theme.set_highlights(options)
 	hl(0, "@nowl.variable.object", { fg = palette.cyan2, bg = "NONE", italic = options.italics })
 	hl(0, "@nowl.visual.active", { fg = "NONE", bg = palette.visual })
 	hl(0, "@nowl.visual.inactive", { fg = "NONE", bg = palette.dark_purple })
+	hl(0, "@nowl.keyword.operator.new.javascript", { fg = palette.cyan2, bg = "NONE" })
 
 	-- Treesitter
 	hl(0, "@class.constructor", { fg = palette.blue, bg = "NONE", italic = options.italics })

@@ -15,6 +15,9 @@
   constructor: (identifier) @class.constructor
   (#set! "priority" 200))
 
+(new_expression
+  "new" @nowl.keyword.operator.new)
+
 ((optional_chain) @operator
                   (#set! "priority" 200))
 
