@@ -25,3 +25,5 @@
 (function_call
   name: (identifier) @function.call.lua
     (#set! "priority" 200))
+
+(break_statement) @nowl.keyword.break
