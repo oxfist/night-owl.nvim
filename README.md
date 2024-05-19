@@ -140,14 +140,6 @@ different:
 
 ### Language Support 🌐
 
-<style>
-@media (prefers-color-scheme: dark) {
-    .darkable-logo {
-        filter: invert(100%);
-    }
-}
-</style>
-
 <table class="languages-table">
   <tr>
     <td style="vertical-align: middle"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" title="JavaScript" alt="JavaScript" width="50" /></td>
