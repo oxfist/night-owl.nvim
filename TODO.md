@@ -15,8 +15,8 @@
 13. [x] Support for Vimscript
 14. [x] Support for R
 15. [x] Support for Python
-16. [ ] Update custom queries with prefix
-17. [ ] Issue template
-18. [ ] Support for Rust
-19. [ ] Support for Ruby
-20. [ ] Support for Bash
+16. [ ] Support for Bash
+17. [ ] Update custom queries with prefix
+18. [ ] Issue template
+19. [ ] Support for Rust
+20. [ ] Support for Ruby
