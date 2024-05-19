@@ -1,3 +1,4 @@
+---@class Account
 local Account = {}
 
 function Account:new(balance)
