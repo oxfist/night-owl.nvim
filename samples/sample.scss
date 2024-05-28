@@ -1,0 +1,65 @@
+// Variables
+$font-stack: 'Arial', sans-serif;
+$primary-color: #333;
+
+// Basic styling
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+}
+
+// Nesting
+.foobar {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+
+  &:hover {
+    background-color: lighten($color: #f0f0f0, $amount: 20%);
+  }
+}
+
+// ID selector
+#baz {
+  width: 100px;
+  height: 100px;
+  background-color: #123;
+}
+
+// Mixin
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.button {
+  @include transform(rotate(30deg));
+}
+
+// Extend/Inheritance
+.error {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+
+.seriousError {
+  @extend .error;
+  border-width: 3px;
+}
+
+// Operators
+.container {
+  width: 100%;
+}
+
+.article {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+// Interpolation
+$name: foo;
+$attr: border;
+p.#{$name} {
+  #{$attr}-color: blue;
+}

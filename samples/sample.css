@@ -1,0 +1,60 @@
+/* Basic styling */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Class selector */
+.foobar {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+/* ID selector */
+#baz {
+  width: 100px;
+  height: 100px;
+  background-color: #123;
+}
+
+/* Pseudo-class */
+a:hover {
+  color: red;
+}
+
+a::first-line {
+  color: red;
+}
+
+/* Attribute selector */
+input[type='text'] {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Child combinator */
+.foo > .bar {
+  margin: 10px;
+}
+
+/* Descendant combinator */
+.foo .bar {
+  padding: 10px;
+}
+
+/* Adjacent sibling combinator */
+.foo + .bar {
+  border-top: 1px solid #ccc;
+}
+
+/* General sibling combinator */
+.foo ~ .bar {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Media query */
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,76 @@
+---
+import { useState } from 'react';
+import MyComponent from './MyComponent.jsx';
+
+// JavaScript frontmatter
+const foo = "Lorem Ipsum";
+const bar = 123;
+const baz = 3.14;
+const foobar = "Hello, Astro!";
+const items = ["item1", "item2", "item3"];
+const [showMessage, setShowMessage] = useState(true);
+const [inputValue, setInputValue] = useState("");
+
+function handleClick() {
+  alert(`Button clicked! foo: ${foo}, bar: ${bar}, baz: ${baz}`);
+}
+
+function toggleMessage() {
+  setShowMessage(!showMessage);
+}
+
+function handleInput(event) {
+  setInputValue(event.target.value);
+}
+---
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro Example</title>
+  <style>
+    .example {
+      font-family: Arial, sans-serif;
+    }
+    .button {
+      padding: 10px 20px;
+      background-color: #6200ea;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="example">
+    <h1>{foobar}</h1>
+    <p>foo: {foo}</p>
+    <p>bar: {bar}</p>
+    <p>baz: {baz}</p>
+    <p>doubledBar: {bar * 2}</p>
+
+    <!-- Event handling -->
+    <button class="button" onClick={handleClick}>Click me</button>
+
+    <!-- Conditional rendering -->
+    {showMessage ? <p>This is a conditional message.</p> : null}
+
+    <!-- Looping through items -->
+    <ul>
+      {items.map(item => <li key={item}>{item}</li>)}
+    </ul>
+
+    <!-- Form binding -->
+    <input type="text" value={inputValue} onInput={handleInput} placeholder="Type something..." />
+    <p>You typed: {inputValue}</p>
+
+    <!-- Toggling the message -->
+    <button class="button" onClick={toggleMessage}>Toggle Message</button>
+  </div>
+  
+  <!-- Including another component -->
+  <MyComponent />
+
+</body>
+</html>
+
