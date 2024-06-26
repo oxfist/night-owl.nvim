@@ -10,6 +10,7 @@
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/dark_logo.png" alt="Illustration of an owl">
         <img src="img/light_logo.png" height="300" alt="Illustration of an owl" />
     </picture>
+    <img src="img/calculator.png" />
 </div>
 
 The _best_ implementation of
