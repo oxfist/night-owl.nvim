@@ -264,6 +264,7 @@ function theme.set_highlights(options)
 	hl(0, "RainbowDelimiterViolet", { fg = palette.purple3, bg = "NONE" })
 	hl(0, "RainbowDelimiterBlue", { fg = palette.blue15, bg = "NONE" })
 
+	--TODO: Verify the colors to match the theme.
 	-- Terminal colors
 	vim.g.terminal_color_0 = palette.bg -- Black
 	vim.g.terminal_color_1 = palette.light_red -- Red
