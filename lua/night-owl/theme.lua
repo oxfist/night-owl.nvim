@@ -274,6 +274,16 @@ function theme.set_highlights(options)
 	vim.g.terminal_color_6 = palette.cyan2 -- Cyan
 	vim.g.terminal_color_7 = palette.white -- White
 
+	-- Bright colors
+	vim.g.terminal_color_8 = palette.gray -- Bright Black
+	vim.g.terminal_color_9 = palette.error_red -- Bright Red
+	vim.g.terminal_color_10 = palette.green2 -- Bright Green
+	vim.g.terminal_color_11 = palette.light_yellow -- Bright Yellow
+	vim.g.terminal_color_12 = palette.light_blue -- Bright Blue
+	vim.g.terminal_color_13 = palette.light_purple -- Bright Magenta
+	vim.g.terminal_color_14 = palette.light_cyan -- Bright Cyan
+	vim.g.terminal_color_15 = palette.white -- Bright White
+
 	-- Set the terminal background and foreground colors
 	hl(0, "Terminal", { fg = palette.fg, bg = palette.bg })
 end
