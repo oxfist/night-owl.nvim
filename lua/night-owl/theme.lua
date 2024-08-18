@@ -263,6 +263,9 @@ function theme.set_highlights(options)
 	hl(0, "RainbowDelimiterYellow", { fg = palette.yellow, bg = "NONE" })
 	hl(0, "RainbowDelimiterViolet", { fg = palette.purple3, bg = "NONE" })
 	hl(0, "RainbowDelimiterBlue", { fg = palette.blue15, bg = "NONE" })
+
+	-- Set the terminal background and foreground colors
+	hl(0, "Terminal", { fg = palette.fg, bg = palette.bg })
 end
 
 return theme
