@@ -263,6 +263,29 @@ function theme.set_highlights(options)
 	hl(0, "RainbowDelimiterYellow", { fg = palette.yellow, bg = "NONE" })
 	hl(0, "RainbowDelimiterViolet", { fg = palette.purple3, bg = "NONE" })
 	hl(0, "RainbowDelimiterBlue", { fg = palette.blue15, bg = "NONE" })
+
+	-- Set the terminal background and foreground colors
+	hl(0, "Terminal", { fg = palette.fg, bg = palette.bg })
+
+	-- Terminal colors
+	vim.g.terminal_color_0 = palette.dark -- Black
+	vim.g.terminal_color_1 = palette.dark_red -- Red
+	vim.g.terminal_color_2 = palette.green2 -- Green
+	vim.g.terminal_color_3 = palette.yellow -- Yellow
+	vim.g.terminal_color_4 = palette.blue -- Blue
+	vim.g.terminal_color_5 = palette.purple -- Magenta
+	vim.g.terminal_color_6 = palette.cyan2 -- Cyan
+	vim.g.terminal_color_7 = palette.dark_white -- White
+
+	-- -- Bright colors
+	vim.g.terminal_color_8 = palette.gray3 -- Bright Black
+	vim.g.terminal_color_9 = palette.red -- Bright Red
+	vim.g.terminal_color_10 = palette.green -- Bright Green
+	vim.g.terminal_color_11 = palette.light_yellow -- Bright Yellow
+	vim.g.terminal_color_12 = palette.light_blue -- Bright Blue
+	vim.g.terminal_color_13 = palette.magenta -- Bright Magenta
+	vim.g.terminal_color_14 = palette.cyan5 -- Bright Cyan
+	vim.g.terminal_color_15 = palette.white -- Bright White
 end
 
 return theme
