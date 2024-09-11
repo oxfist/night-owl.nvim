@@ -235,7 +235,7 @@ different:
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/andrew-george"><img src="https://avatars.githubusercontent.com/u/95014217?v=4?s=100" width="100px;" alt="Andrew Berty"/><br /><sub><b>Andrew Berty</b></sub></a><br /><a href="https://github.com/oxfist/night-owl.nvim/issues?q=author%3Aandrew-george" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/FStanDev"><img src="https://avatars.githubusercontent.com/u/116457798?v=4?s=100" width="100px;" alt="FStanDev"/><br /><sub><b>FStanDev</b></sub></a><br /><a href="https://github.com/oxfist/night-owl.nvim/issues?q=author%3AFStanDev" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://rolandhaller.com"><img src="https://avatars.githubusercontent.com/u/88140523?v=4?s=100" width="100px;" alt="Roland Haller"/><br /><sub><b>Roland Haller</b></sub></a><br /><a href="https://github.com/oxfist/night-owl.nvim/issues?q=author%3AProHaller" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://rolandhaller.com"><img src="https://avatars.githubusercontent.com/u/88140523?v=4?s=100" width="100px;" alt="Roland Haller"/><br /><sub><b>Roland Haller</b></sub></a><br /><a href="https://github.com/oxfist/night-owl.nvim/issues?q=author%3AProHaller" title="Bug reports">🐛</a> <a href="https://github.com/oxfist/night-owl.nvim/commits?author=ProHaller" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
