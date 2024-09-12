@@ -10,7 +10,7 @@
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oxfist/night-owl.nvim/main/img/dark_logo.png" alt="Illustration of an owl">
         <img src="img/light_logo.png" height="300" alt="Illustration of an owl" />
     </picture>
-    <img src="img/calculator.png" />
+    <img src="img/calculator.png" alt="TypeScript code with Night Owl syntax highlighting on" style="border-radius:1em" />
 </div>
 
 The _best_ implementation of
@@ -50,8 +50,8 @@ Plug 'oxfist/night-owl.nvim'
 
 <!-- prettier-ignore-start -->
 > [!NOTE]
-> You can skip this step if you followed the `lazy.nvim` setup (that
-> already sets the colorscheme).
+> You can skip this step if you followed the `lazy.nvim` setup, which
+> already sets the colorscheme.
 <!-- prettier-ignore-end -->
 
 Add the following to your Lua configuration files, e.g.
@@ -103,7 +103,7 @@ TODO
 
 How does this port compare to the original VSCode theme? Check it out!
 
-| Original Night Owl for VSCode                                                | This Theme 🤩                                                              |
+| Night Owl for VSCode                                                         | This Theme 🤩                                                              |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | <img src="./img/vscode.png" alt="Screenshot of VSCode theme" width="1062" /> | <img src="./img/neovim.png" alt="Screenshot of this theme" width="1078" /> |
 
