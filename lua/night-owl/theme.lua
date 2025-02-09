@@ -268,6 +268,19 @@ function theme.set_highlights(options)
 	-- Set the terminal background and foreground colors
 	hl(0, "Terminal", { fg = palette.fg, bg = palette.bg })
 
+    -- vim-notify
+    hl(0, "NotifyBackground", { fg = palette.fg, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyERRORBorder", { fg = palette.error_red, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyWARNBorder", { fg = palette.orange, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyINFOBorder", { fg = palette.blue, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyDEBUGBorder", { fg = palette.cyan2, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyTRACEBorder", { fg = palette.magenta, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyERRORBody", { fg = palette.error_red, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyWARNBody", { fg = palette.orange, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyINFOBody", { fg = palette.blue, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyDEBUGBody", { fg = palette.cyan2, bg = palette.bg, blend = 100 })
+    hl(0, "NotifyTRACEBody", { fg = palette.magenta, bg = palette.bg, blend = 100 })
+
 	-- Terminal colors
 	vim.g.terminal_color_0 = palette.dark -- Black
 	vim.g.terminal_color_1 = palette.dark_red -- Red
